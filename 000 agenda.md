@@ -9,6 +9,7 @@ Upon completing this course, participants will be equipped to:
 •	Explore **Google Cloud Platform (GCP)** and understand how it compares to Microsoft Azure. Gain insights into GCP's networking, storage, and database services, enabling you to make informed decisions when choosing between cloud providers.
 •	Gain awareness of **Amazon Web Services (AWS)** and understand its role in the cloud computing landscape. Conduct a comparative analysis of AWS with Microsoft Azure and Google Cloud to grasp the unique strengths and offerings of each provider.
 
+### Path:
 ![alt text](image-5.png)
 
 | Cloud Essentials  |       |
