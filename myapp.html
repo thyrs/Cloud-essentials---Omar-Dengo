@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>AZ-900 Shooting Quiz</title>
+<style>
+  body {
+    margin: 0;
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  canvas {
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #00bfff;
+  }
+
+  #info {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .highlight {
+    color: #00bfff;
+    font-weight: bold;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>🔥 AZ‑900 Shooting Quiz</h2>
+<div id="info">
+  Question: <span class="highlight">What does Azure Virtual Network (VNet) provide?</span><br>
+  Score: <span id="score">0</span>
+</div>
+
+<canvas id="gameCanvas" width="600" height="400"></canvas>
+
+<script>
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
+let score = 0;
+
+const player = {
+  x: 280,
+  y: 350,
+  width: 40,
+  height: 20,
+  speed: 5
+};
+
+let bullets = [];
+
+const answers = [
+  { text: "Network isolation", correct: true, x: 80, y: 50 },
+  { text: "Data encryption", correct: false, x: 240, y: 50 },
+  { text: "Compute scaling", correct: false, x: 400, y: 50 }
+];
+
+document.addEventListener("keydown", movePlayer);
+document.addEventListener("keydown", shoot);
+
+function movePlayer(e) {
+  if (e.key === "ArrowLeft" && player.x > 0) player.x -= player.speed;
+  if (e.key === "ArrowRight" && player.x < canvas.width - player.width) player.x += player.speed;
+}
+
+function shoot(e) {
+  if (e.key === " ") {
+    bullets.push({ x: player.x + 18, y: player.y });
+  }
+}
+
+function drawPlayer() {
+  ctx.fillStyle = "#00bfff";
+  ctx.fillRect(player.x, player.y, player.width, player.height);
+}
+
+function drawBullets() {
+  ctx.fillStyle = "#fff";
+  bullets.forEach(b => {
+    ctx.fillRect(b.x, b.y, 4, 10);
+    b.y -= 7;
+  });
+}
+
+function drawAnswers() {
+  answers.forEach(a => {
+    ctx.fillStyle = a.correct ? "#0f0" : "#f00";
+    ctx.fillRect(a.x, a.y, 140, 30);
+    ctx.fillStyle = "#000";
+    ctx.fillText(a.text, a.x + 10, a.y + 20);
+  });
+}
+
+function detectCollisions() {
+  bullets.forEach((b, bIndex) => {
+    answers.forEach((a, aIndex) => {
+      if (
+        b.x > a.x &&
+        b.x < a.x + 140 &&
+        b.y > a.y &&
+        b.y < a.y + 30
+      ) {
+        if (a.correct) {
+          score += 10;
+          alert("✅ Correct: VNet provides network isolation.");
+        } else {
+          score -= 5;
+          alert("❌ Wrong: That’s not what VNet does.");
+        }
+        document.getElementById("score").innerText = score;
+        bullets.splice(bIndex, 1);
+      }
+    });
+  });
+}
+
+function gameLoop() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawPlayer();
+  drawBullets();
+  drawAnswers();
+  detectCollisions();
+  requestAnimationFrame(gameLoop);
+}
+
+gameLoop();
+</script>
+
+<p>
+Controls: <span class="highlight">← →</span> to move | 
+<span class="highlight">Space</span> to shoot
+</p>
+
+</body>
+</html>
