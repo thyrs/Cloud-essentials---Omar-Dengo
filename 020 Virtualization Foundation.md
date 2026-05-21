@@ -15,20 +15,19 @@ Whereas businesses just a few decades ago relied on error-prone paper-and-pencil
 
 There are **two deployments models** used on the traditional data center:
 
-
 ### On-Premises Solutions (CPE - Customer Premises Equipment)
-* All equipment is located in your building.
-* All equipment is owned by you.
-* Everything is the building is your responsibility.
-* Equipment is CapEx.
+* All equipment is located in __your building__.
+* All __equipment is owned__ by you.
+* Everything is the building is y__our responsibility__.
+* Equipment is __CapEx__.
 * Long deploy times for new equipment.
 * Equipment requires technology refreshers.
 * Redundancy must be considered.
 
 
 ### Colocation or "Colo" Services
-* A data center location where the owner of the facility rents out space to external customers.
-* The facility owner provides power, cooling, physical security to customer's equipment.
+* A data center location where the owner of the __facility rents out space__ to external customers.
+* The facility __owner provides power, cooling,__ physical security to customer's equipment.
 * Your user's desktop will still be in your offices.
 * The connection between your office and the colo is your ISP responsibility.
 * Your equipment at Colo Facility is CapEx cost.
@@ -38,6 +37,7 @@ There are **two deployments models** used on the traditional data center:
 ### *VIDEO* 10 Things to Look for in a Colocation Provider
 [10 Things to Look for in a Colocation Provider](https://www.youtube.com/watch?v%3DaQ8QE7gTt8g)
 
+---
 
 ## CapEx and OpEx?
 
@@ -51,7 +51,7 @@ To simplify all of these costs, businesses organize them under different categor
 * Examples of OPEX include employee salaries, rent, utilities, property taxes, and cost of goods sold (COGS).
 * Capital expenditures cannot be deducted from income for tax purposes while operating expenses can be deducted from taxes.
 
-
+---
 
 ## The Traditional Data Center Network
 
@@ -61,14 +61,14 @@ This model contains the following three layers:
 
 ![three-tier_structure_networking](three-tier_structure_networking.png)
 
-**Access Layer**
-Controls user and workgroup access to the resources on the network. This layer usually incorporates Layer 2 switches and access points that provide connectivity between workstations and servers. You can manage access control and policy, create separate collision domains, and implement port security at this layer.
-**Distribution layer**
-Serves as the communication point between the access layer and the core. Its primary functions are to provide routing, filtering, and WAN access and to determine how packets can access the core. 
-This layer determines the fastest way that network service requests are accessed – for example, how a file request is forwarded to a server – and, if necessary, forwards the request to the core layer. This layer usually consists of routers and multilayer switches.
+### Access Layer
+- Controls user and workgroup access to the resources on the network. This layer usually incorporates Layer 2 switches and access points that provide connectivity between workstations and servers. You can manage access control and policy, create separate collision domains, and implement port security at this layer.
+### Distribution layer
+- Serves as the communication point between the access layer and the core. Its primary functions are to provide routing, filtering, and WAN access and to determine how packets can access the core. 
+- This layer determines the fastest way that network service requests are accessed – for example, how a file request is forwarded to a server – and, if necessary, forwards the request to the core layer. This layer usually consists of routers and multilayer switches.
 It is sometimes called the Aggregation Layer
-**Core Layer**
-Also referred to as the network backbone, this layer is responsible for transporting large amounts of traffic quickly. The core layer provides interconnectivity between distribution layer devices it usually consists of high speed devices, like high end routers and switches with redundant links.
+### Core Layer
+- Also referred to as the network backbone, this layer is responsible for transporting large amounts of traffic quickly. The core layer provides interconnectivity between distribution layer devices it usually consists of high speed devices, like high end routers and switches with redundant links.
 
 
 
@@ -85,13 +85,12 @@ The main **benefits of Three-Layer hierarchical** model is that it helps to desi
 ---
 
 
-
 # Virtualization Overview
 
 ## What is Virtualization?
-Virtualization is the process of running a virtual instance of a computer system in a layer abstracted from the actual hardware. 
+Virtualization is the process of running a virtual instance of a computer system in a __layer abstracted__ from the actual hardware. 
 
-Most commonly, it refers to running multiple operating systems on a computer system simultaneously.
+Most commonly, it refers to running __multiple operating systems on a computer__ system simultaneously.
 
 A major challenge in IT today is that organizations can easily spend 70 percent to 80 percent of their budgets on operations, including optimizing, maintaining, and manipulating the environment.
 
@@ -101,13 +100,14 @@ There are many reasons why people utilize virtualization in computing. To deskto
 
 For administrators of servers, virtualization also offers the ability to run different operating systems, but perhaps, more importantly, it offers a way to segment a large system into many smaller parts, allowing the server to be used more efficiently by a number of different users or applications with different needs. 
 
-It also allows for isolation, keeping programs running inside of a virtual machine safe from the processes taking place in another virtual machine on the same host.
+It also allows for __isolation__, keeping programs running inside of a virtual machine safe from the processes taking place in another virtual machine on the same host.
 
 
 ### *VIDEO* Virtualization Explained
 [Virtualization Explained](https://www.youtube.com/watch?v%3DFZR0rG3HKIk)
 
-- Type1 Hypervisor: bare metal (VMware, hyper-V, KVM)
+#### Hypervisor
+- Type1 Hypervisor: __bare metal__ (VMware, hyper-V, KVM)
 - Type2 Hypervisor: Hosted (VirtualBox)
 
 **Benefits:**
@@ -157,6 +157,8 @@ In the next section, you will deploy your first Virtual Machine using a Type2 Hy
 Video taken from TopNotch Programmer 
 
 
+# LAB 025
+check file: [install VM instance with virtual box](<025 Lab.md>)
 
 
 # Software-Define Data Center (SDDC)
@@ -170,7 +172,7 @@ Let's see some of the benefits of SDDC
 
 
 ### Virtualization and hybrid cloud extensibility
-**SDDC can be extended out to public and private cloud services. It’s a bedrock of the hybrid cloud datacenter.**
+__SDDC can be extended out to public and private cloud services. It’s a bedrock of the hybrid cloud datacenter.__
 The virtualization element of SDDC enables you to:
 * Fully utilize your data center resources, as a virtualized pool you can allocate flexible to various workloads
 * Build a hybrid cloud and gain its many economic and scalability advantages
@@ -178,14 +180,14 @@ The virtualization element of SDDC enables you to:
 
 
 ### Streamlined, automated datacenter operations
-**Because resources are controlled by software, you can also automate routine tasks**
+__Because resources are controlled by software, you can also automate routine tasks__
 When your business streamlines and automates operations with SDDC, you can:
 * Reduce management costs and effort
 * Provision OSes, storage, networking and applications without manual intervention
 * Use open standards to integrate management software and manage infrastructure with fewer tools
 
 ### Automated application infrastructure and delivery
-**You have one application infrastructure to deploy to, and one to manage.**
+__You have one application infrastructure to deploy to, and one to manage.__
 Depending on the level of privilege, you or your user can do task like:
 * Deploy new applications faster
 * Offer policy-based application self-service for end-users
@@ -193,7 +195,7 @@ Depending on the level of privilege, you or your user can do task like:
 
 
 ### Security that protects changing infrastructure
-**Today, our applications are highly distributed and the perimeter is becoming increasingly harder to define.**
+__Today, our applications are highly distributed and the perimeter is becoming increasingly harder to define.__
 The situation has become increasingly complex, and complexity is the enemy of security.
 With SDDC you can:
 * Secure your infrastructure natively applying policies at the VM level shifting security from perimeter defence to one that is fine-grained and application & data centric
@@ -203,7 +205,7 @@ With SDDC you can:
 
 
 ### Resilient, high availability infrastructure
-**Any data center is only as reliable as its hardware and the applications that run on it**
+__Any data center is only as reliable as its hardware and the applications that run on it__
 The advantage of SDDC is that single, virtualized pool of resources. If one server goes down, its resources disappear from the pool – but workloads can be allocated to another server.
 There are storage availability benefits too. With the right backup or disaster recovery (DR) solution, you can keep multiple copies of critical data available across your entire infrastructure at all times. If one piece of storage goes down, the backup is still available to users. 
 
