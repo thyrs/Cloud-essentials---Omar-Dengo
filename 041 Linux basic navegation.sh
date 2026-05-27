@@ -19,7 +19,19 @@ https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZp
 #                                ┌────┴───┐ └─┬────┐         
 #     > YOUR home directory  >>> │/esteban│   │/rob│        
 #                                └────────┘   └────┘         
-#          
+#
+
+/ # Disk-Based, The Root File System #! interview
+/etc # [e]xtended [t]ext [c]onfiguration, directory holds system configuration files. #! interview
+/root # This is the default home directory location for the root user.
+/boot # Linux kernel, boot support files, and boot configuration files.
+/home # store user home directories and other user contents. #! interview
+/opt # hold [opt]ional software that may need to be installed on the system.
+/usr # (UNIX System Resources) contains most of the system files.
+/var # contain log, status, spool, lock, and other [var]iable data. #!Cert
+/tmp # The Temporary Directory, a repository for temporary files
+/dev # used to store [dev]ice nodes for physical hardware and virtual devices.
+
 
 #? Relative Path vs Absolute Path
 
