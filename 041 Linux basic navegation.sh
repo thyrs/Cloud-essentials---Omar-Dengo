@@ -23,14 +23,12 @@ https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZp
 
 #? Relative Path vs Absolute Path
 
-```sh
-
 cat Documents/newhome.txt
 # Relative Path
 
 cat /home/esteban/Documents/newhome.txt
 # Absolute Path
-```
+
 
 #? Basic commands:
 
@@ -92,45 +90,16 @@ Ctrl + C
 # use up and down arrows to see the history
 
 
-#? Users groups and permitions
-
-
-ip address 
-# shows ip address information
-
-sudo       
-# (Super User Do) grants a user root access without actually changing their profile.
-
-apt-get    
-# is used to install and manage software on Debian based Linux distributions.
-
-shutdown   
-# is used to halt and reboot the operating system.
-
-ps         
-# allows users to monitor their own processes.
-
-kill       
-# allows users to end the processes that they have started.
-
-man
-# (manual) Displays documentation for a specific command, "q" for quit the screen
-
-ln 
-# create hardlink
-
-ln -s
-# create softlink 
 
 
 
-# ls >> list
-# pwd >> print working directory
-# cd >> change directory
-# .. >> "go back on the directory"
-# / >>> root directory
-# ~ >> "home directoy"
-# nano >> editor de text
-# ctrl + X > exit
-# ctrl + O > save
-# cat >> concatenate (mostrar el contenido de el archivo)
+ls # list
+pwd # print working directory
+cd # change directory
+.. # "go back on the directory"
+/ # root directory
+~ # "home directoy"
+nano # editor de text
+ctrl + X # exit
+ctrl + O # save
+cat # concatenate (mostrar el contenido de el archivo)
