@@ -54,7 +54,7 @@ The ps command will display the processes that are running in the current termin
 - TIME: The total amount of processor time used by the process. Typically, this information isn't used by regular users.
 - CMD: The command that started the process.
 
-## Package Management
+# Package Management
 
 A package manager is a collection of software tools that automate the process of installing, upgrading, configuring, and removing software. A package manager maintains a database of information about installed packages (called the package database) that enables the package manager to uninstall software, establish whether a new package’s dependencies have been met, and determine whether a package you’re trying to install has already been installed.
 
@@ -89,6 +89,10 @@ Updating all packages of the system should be done in two steps. First, update t
 Removing Packages
 The apt-get command is able to either remove or purge a package. The difference between the two is that purging deletes all package files, while removing deletes all but the configuration files for the package.
 An administrator can execute the apt-get remove command to remove a package or the apt-get purge command to purge a package completely from the system.
+
+
+----
+
 
 
 # Regular Expressions
@@ -141,7 +145,17 @@ When it comes to command input and output there are three paths, or “tracks”
 HakTip - Linux Terminal 101 - I/O Redirection of Standard Outputs
 
 [HakTip - Linux Terminal 101 - I/O Redirection of Standard Outputs](https://www.youtube.com/watch?v%3Dy_UbStpJHpI)
+```sh
+STDIN= Standard input = 0 # information I give to "BASH"
+STDOU= Standard output = 1 # information "BASH" gives me
+STDERR= Standard error = 2 # Error message "BASH" gives
 
+>  # used for Output Redirection. #!cert and interview
+>> # used for Output Redirection to append.
+<  # Input redirection. #? rarely used
+"<<" # used for input redirection and is also known "as here document".
+|  # Pipe is a Redirection to send the output of one command/program/process to another command/program/process for further processing.
+```
 
 
 ## Text editor

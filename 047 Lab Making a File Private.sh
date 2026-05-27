@@ -6,7 +6,8 @@
 #? Step 2
 # Create a simple list of resolutions in the file /tmp/username/resolutions.txt. You may use a text editor, your file from the previous lesson's exercise if it is still available, or simply create a new one.
 #? Step 3
-# Permissions on a newly created file allow all users on the system to read the file. Assume that you want to keep your resolutions private. Modify the file's permissions, such that read access for others is removed.
+# Permissions on a newly created file allow all users on the system to read the file. Assume that you want to keep your resolutions private. 
+# Modify the file's permissions, such that read access for others is removed.
 #? Step 4
 # Using one of your alternate accounts, confirm that other users on the system are not able to read your resolutions.
 
