@@ -58,7 +58,9 @@ cd ..
 
 nano newfile.txt
 # create o edit text files
-# use "/" to search, n = next result, N = previuos result
+    ctrl + o # save
+    ctrl + x # exit
+    # use "/" to search, n = next result, N = previuos result
 
 cat newfile.txt
 # shows content of "newfile.txt"
