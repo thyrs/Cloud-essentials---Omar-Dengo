@@ -4,7 +4,7 @@ Linux Foundation Part 1
 - Linux Overview
 - Navigating Basic Command Syntax
 - To navigate the filesystem structure, use the cd (change directory) command to change directories.
-- Administrative Access
+- Administrative Access: create user, password
 
 
 # Linux Overview (not interesting for the exam, but good to know)

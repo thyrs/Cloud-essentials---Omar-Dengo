@@ -4,8 +4,8 @@
 
 
 **Linux LAB**(practice):
-# 0. - si no las tiene, cree las carpetas Downloads, Desktop, Documents
-# 1. -Ingrese a la carpeta de Downloads cree un file .txt que se llame "textfile.txt" y tenga su nombre en contenido. 
+# 0. - si no las tiene, cree las carpetas Downloads, Desktop, Documents 
+# 1. - Ingrese a la carpeta de Downloads cree un file .txt que se llame "textfile.txt" y tenga su nombre en contenido. 
 # 2. -copie el file a la carpeta de Desktop, luego cambiele el nombre a "newtextfile.txt".
 # 3. -agregue "buenos dias" al documento usando nano
 # 4. -cree una carpeta dentro de Desktop/ que se llame "mycarpeta" y mueva el  newtextfile.txt a esa carpeta.

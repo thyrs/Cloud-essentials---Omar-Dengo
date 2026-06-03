@@ -17,9 +17,14 @@ https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZp
 # └────┘   └─────┘   └────┘  └─────┘  ├─────┤ └────┘  └─────┘
 #                                     │     │                
 #                                ┌────┴───┐ └─┬────┐         
-#     > YOUR home directory  >>> │/esteban│   │/rob│        
+#     > YOUR home directory  >>> │/esteban│   │/rob│ ******       
 #                                └────────┘   └────┘         
 #
+
+/home/rob > path absoluto
+
+
+
 
 / # Disk-Based, The Root File System #! interview
 /etc # [e]xtended [t]ext [c]onfiguration, directory holds system configuration files. #! interview
@@ -51,19 +56,19 @@ ls
 # list directory content
 
 ll 
-# list directory content full details
+# list directory content full details - [l]ong [l]ist
 
 pwd 
-# shows the current directory path
+# shows the current directory path - [p]rint [w]orking [d]irectory
 
 cd / 
-# "/" system root path
+# "/" system root path - [c]hange [d]irectory
 
 ls ~ 
 # "~" user home directory
 
 cd Downloads 
-# change directory to the "Downloads" folder
+# [c]hange [d]irectory to the "Downloads" folder
 
 cd .. 
 # change directory to previos directory (go back)
