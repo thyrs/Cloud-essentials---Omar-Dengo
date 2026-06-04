@@ -7,11 +7,13 @@
 whoami # Display currently logged username
 
 #? command useradd:
-useradd # "user addition" Create a new user #! interview
-# Usage: useradd [options] LOGIN
 useradd user1 # Creates a user: "Create a new user"
 useradd -m user1 # Create the user's ho[m]e directory if it does not exist #!Cert
 useradd -m user1 -s /bin/bash # sets the path to the user's login [s]hell
+
+#? command sudo:
+sudo # "super user do"
+sudo usermod -aG sudo username # Adding "super user" powers to "username"
 
 #? command passwd:
 passwd # Passwd is a tool used to change a user's password. And general password mgmt #! interview, Cert
@@ -23,21 +25,12 @@ sudo passwd root # change root password
 # Usage: su [options] [-] [<user> [<argument>...]]
 #! ---ALERT--- when you Switch to other user by default you stay in the same directory(it doesnt change directories)
 su user1 # Switch User to "user1" #! interview
-su - username -c "command" # Execute a [c]ommand as another user: #!cert
 
-"$" # signifies a standard user is logged into the shell #! cert
-"#" # signifies root is logged into the shell #! cert
+exit # go back to the previous session
 
 
 
-#! PERMISSIONS:
 #! Manage file permissions and ownership :
-
-* ____Objectives:____
-    - Manage access permissions on regular and special files as well as directories.
-
-
-#* Important files terms and utilities:
 
 | letter | meaning | # value | Directory | file     | 
 | ------ | ------- | ------- | --------- | -------- |
@@ -51,7 +44,7 @@ ls -l # shows detailed information about files and directories, including permis
 
 | file | user | group | other | links | onwer | group | size | modification | name      |
 | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- | ------------ | --------- |
-| -    | rwx  | rwx   | rwx   | 1     | thyrs | thyrs | 156  | dec 3 10:57  | my.txt    |
+| -    | rwx  | rwx   | rwx   | 1     | rober | HRdep | 156  | dec 3 10:57  | my.txt    |
 |      |      |       |       |       |       |       |      |              |           |
 
 
@@ -85,4 +78,4 @@ chown user01 /path/to/file_or_directory # Change the owner user of a file/direct
 chown root:root /path/to/file_or_directory # changes both: user and group to "root"
 chown :group /path/to/file_or_directory # changes group only
 chown user:same_group /path/to/file_or_directory # changes user only
-sudo chown -R esteban:esteban /opt/splunkforwarder/ # change the owner of a folder [R]ecursive 
+
