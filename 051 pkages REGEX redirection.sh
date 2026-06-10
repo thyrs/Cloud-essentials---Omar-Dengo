@@ -4,32 +4,6 @@
     - Regular Expressions
     - Input Output Redirection in Linux and text Editor
 
-#! Day PROCCESS & PACKAGE MANAGEMENT 
-
-#? ps command:
-
-ps -aux # shows processes: [a]ll, [u]ser based, without controlling ttys [x] #!CERT
-ps -aux --forest # shows "process tree" also know as process hierarchy, #!Interview
-
-
-#? top command:
-
-top # shows proccess, starts top(enters in a presetantion mode) #!CERT
-    q # [q]uit
-    <esc> # "go back"
-    k # [k]ills proccess
-    t # [t]ask/cpu, filters output: Cycles between task CPU, total CPU, and memory summaries. 
-    u # [u]ser, 
-    h # shows [h]elp (other options)
-
-#? kill command:
-
-kill # kill a proccess
-kill 4463 # Terminate a proccess ID: "4463" using the default SIGTERM (terminate) signal:
-kill -9 process_id # Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
-
-
-
 #! Use Debian package management:
 
 #? apt-get command:
@@ -58,8 +32,33 @@ systemctl stop apache2 # stop the service
 
 
 
-#! Basics - text utilities, output redirection
+#! PROCCESS & PACKAGE MANAGEMENT 
 
+#? ps command:
+
+ps -aux # shows processes: [a]ll, [u]ser based, without controlling ttys [x] #!CERT
+ps -aux --forest # shows "process tree" also know as process hierarchy, #!Interview
+
+
+#? top command:
+
+top # shows proccess, starts top(enters in a presetantion mode) #!CERT
+    q # [q]uit
+    <esc> # "go back"
+    k # [k]ills proccess
+    t # [t]ask/cpu, filters output: Cycles between task CPU, total CPU, and memory summaries. 
+    u # [u]ser, 
+    h # shows [h]elp (other options)
+
+#? kill command:
+
+kill # kill a proccess
+kill 4463 # Terminate a proccess ID: "4463" using the default SIGTERM (terminate) signal:
+kill -9 process_id # Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+
+
+
+#! Basics - text utilities, output redirection
 
 #? cat command:
 
@@ -106,8 +105,7 @@ STDERR= Standard error = 2 # Error message "BASH" gives
 
 >  # used for Output Redirection. #!cert and interview
 >> # used for Output Redirection to append.
-<  # Input redirection. #? rarely used
-"<<" # used for input redirection and is also known "as here document".
+<  # Input redirection (rarely used)
 |  # Pipe is a Redirection to send the output of one command/program/process to another command/program/process for further processing.
 
 
@@ -124,24 +122,6 @@ echo # Print given arguments.
 echo "Hello World" # Print a text message. Note: quotes are optional
 echo "Hello World" > myfile.txt # redirect "Hello World" to myfile.txt
 
-
-
-#? REGEX (regular expresions)
-#! when using regular expresions, always place the pattern within "" or ''
-
-#? Regular Expresions:
-# navigate to /etc/ and try these comands:
-
-ls | grep '^a' # "^" = inicio de linea: muestra lo que empieze con "a" al principio de la linea #!interview
-ls | grep 's$' # "$" = final de linea, muestra lo que tenga "s" al final de la linea #!interview
-ls | grep 'X..' # "." = un caracter: muestra todo lo que tenga "X" seguido de 2 caracteres
-ls | grep '\....' # "\" convierte siguiete caracter en un simbolo literal
-ls | grep [0-9] # "[]" = rango: muestra lo que tenga un numero del 0-9
-ls | grep ^[a-e,z][0-9] # "^" = inicio de linea: muestra file que empieze con letra y seguido un numero #!interview
-ls | grep [^0-9][a-e,z] # "^" = simbolo de negacion: (cuando esta dentro del rango),  muestra file que NO empieze con numero y segundo caracter "a-e" o "z", 
-ls | grep 's.*' # "*" = 0 o mas caracteres, muestra todo lo que tenga algo despues de la "s" 
-ls | grep 'g.*p' # "*" To match zero or more any characters, use ".*"
-grep -i "pattern" /path/to/file # look for "pattern" in file case [i]nsensitive #!CERT
 
 
 
@@ -183,3 +163,23 @@ ZZ      # Exits the editor, saving the changes
 :%s/regular_expression/replacement/g<Enter> # Perform a regular expression substitution in the whole file
 :set nu<Enter> # Display the line numbers
 
+
+
+
+
+#? REGEX (regular expresions)
+#! when using regular expresions, always place the pattern within "" or ''
+
+#? Regular Expresions:
+# navigate to /etc/ and try these comands:
+
+ls | grep '^a' # "^" = inicio de linea: muestra lo que empieze con "a" al principio de la linea #!interview
+ls | grep 's$' # "$" = final de linea, muestra lo que tenga "s" al final de la linea #!interview
+ls | grep 'X..' # "." = un caracter: muestra todo lo que tenga "X" seguido de 2 caracteres
+ls | grep '\....' # "\" convierte siguiete caracter en un simbolo literal
+ls | grep [0-9] # "[]" = rango: muestra lo que tenga un numero del 0-9
+ls | grep ^[a-e,z][0-9] # "^" = inicio de linea: muestra file que empieze con letra y seguido un numero #!interview
+ls | grep [^0-9][a-e,z] # "^" = simbolo de negacion: (cuando esta dentro del rango),  muestra file que NO empieze con numero y segundo caracter "a-e" o "z", 
+ls | grep 's.*' # "*" = 0 o mas caracteres, muestra todo lo que tenga algo despues de la "s" 
+ls | grep 'g.*p' # "*" To match zero or more any characters, use ".*"
+grep -i "pattern" /path/to/file # look for "pattern" in file case [i]nsensitive #!CERT

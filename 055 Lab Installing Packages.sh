@@ -9,6 +9,8 @@ sudo apt-get update
 # Installing Packages
 # Once you've have update the repository, you can proceed to install the package with the apt-get install command:
 sudo apt-get install cowsay
+cowsay your_name_here # Send an SS of this command output
+
 
 #? Step 3
 sudo apt-get update

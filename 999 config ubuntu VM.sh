@@ -1,6 +1,4 @@
 
-
-
 useradd -m esteban -s /bin/bash
 useradd -m alberto -s /bin/bash
 useradd -m andrea -s /bin/bash
