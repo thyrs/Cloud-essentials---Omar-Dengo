@@ -13,7 +13,7 @@ useradd -m user1 -s /bin/bash # sets the path to the user's login [s]hell
 
 #? command sudo:
 sudo # "super user do"
-sudo usermod -aG sudo user_name # Adding "super user" powers to "username"
+sudo usermod -aG sudo user_name # [a]dding "username" to the [G]roup of sudoers
 
 #? command passwd:
 passwd # Passwd is a tool used to change a user's password. And general password mgmt #! interview, Cert
