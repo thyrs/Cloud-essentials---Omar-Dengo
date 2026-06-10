@@ -1,6 +1,4 @@
-
-
-* **Week 5**
+**Week 5**
 - Linux Foundation Part 2
     - Processes, Package and Passwords
     - Regular Expressions
@@ -99,7 +97,7 @@ less /path/to/file #shows file.txt as in "presentation" mode
 sudo cat /var/log/dmesg | less # open "dmesg" and redirect output to less
 
 
-#! - 103.4 Use streams, pipes and redirects
+#! Use streams, pipes and redirects
 # BASH
 
 STDIN= Standard input = 0 # information I give to "BASH"
@@ -128,8 +126,6 @@ echo "Hello World" > myfile.txt # redirect "Hello World" to myfile.txt
 
 
 
-#! Search text files using regular expressions
-
 #? REGEX (regular expresions)
 #! when using regular expresions, always place the pattern within "" or ''
 
@@ -146,15 +142,6 @@ ls | grep [^0-9][a-e,z] # "^" = simbolo de negacion: (cuando esta dentro del ran
 ls | grep 's.*' # "*" = 0 o mas caracteres, muestra todo lo que tenga algo despues de la "s" 
 ls | grep 'g.*p' # "*" To match zero or more any characters, use ".*"
 grep -i "pattern" /path/to/file # look for "pattern" in file case [i]nsensitive #!CERT
-
-
-#? Extended Regular Expressions:
-# (supports `?`, `+`, `{}`, `()` and `|`).
-
-ls | grep -E 'passwd|group' # [E]nables extended filter: "passwd" OR "group"
-ls | grep -E pas?wd # "?" matches the preceding character either zero or one time #! cert
-ls | grep -e passwd -e group # us[e] PATTERNS for matching  "passwd" OR "group"
-cat users | grep -E "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" # Find IP address
 
 
 
