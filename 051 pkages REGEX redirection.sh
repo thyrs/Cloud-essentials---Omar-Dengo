@@ -125,7 +125,7 @@ echo "Hello World" > myfile.txt # redirect "Hello World" to myfile.txt
 
 
 
-#!  Vi - text editor 
+#!  Vi, vim - text editor 
 vi mytextfile.txt # open "mytextfile.txt" with vi.
 
 <escape> # use this to go back to the MODE "read only" and use the options after ":"
