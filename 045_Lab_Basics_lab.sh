@@ -4,6 +4,7 @@
 
 
 **Linux LAB**(practice):
+# navigate to your home directory, verfy with pwd
 # 0. - si no las tiene, cree las carpetas Downloads, Desktop, Documents 
 # 1. - Ingrese a la carpeta de Downloads cree un file .txt que se llame "textfile.txt" y tenga su nombre en contenido. 
 # 2. -copie el file a la carpeta de Desktop, luego cambiele el nombre a "newtextfile.txt".
@@ -12,3 +13,4 @@
 # 5. -elimine el "textfile.txt" dentro de Downloads
 # 6. -Vuelva al home directory "~" y haga cat de "newtextfile.txt"
 # 7. manda screenshot del ultimo comando
+

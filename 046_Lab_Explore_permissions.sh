@@ -1,6 +1,6 @@
 #! Lab Explore permissions on newly created files
 # Objective: Examine default behavior of newly created files
-
+# navigate to your home directory, verfy with pwd
 #? Step 1
 # Create a subdirectory in the /tmp with the same name as your username. 
 # For example, if your username is elvis, create the directory /tmp/elvis. 

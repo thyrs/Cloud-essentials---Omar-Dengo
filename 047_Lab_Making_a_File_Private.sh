@@ -1,6 +1,6 @@
 #! Making a File Private
 # Objective: Change permissions on a file, such that others are not able to read the file.
-
+# navigate to your home directory, verfy with pwd
 #? Step 1
 # Create the directory /tmp/username, if it does not already exist. For example, if your username is elvis, create the directory /tmp/elvis.
 #? Step 2

@@ -1,5 +1,5 @@
 #! Installing Packages
-
+# navigate to your home directory, verfy with pwd
 ### Let's cover up, how to use the package manager on Debian-based distributions
 # Package files are commonly installed by downloading them directly from repositories located on Internet servers. The Debian repositories contain more than 65,000 different packages of software. Before installing a package, it is good practice to use the refresh the list of available packages using the "apt-get update" command.
 sudo apt-get update
