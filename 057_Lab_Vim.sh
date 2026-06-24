@@ -1,4 +1,5 @@
 #? Lab vi
+# press "Alt+z" for word wrap
 # 0. navigate to your home directory "cd ~"and make sure with the command "pwd"
 # 1. Redirect the contents of /var/log/dpkg.log to a file named "mylogs.txt" in your home directory. (/var/log/dnf.log for redhat users)
 # 2. Open the file in vi, navigate to the end, move up 3 lines, and insert the following on a new line:
