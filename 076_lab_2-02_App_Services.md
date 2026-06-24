@@ -37,14 +37,13 @@ Below are some steps to creating a Web App using Azure App services.
 > you can go to "development tools" > SSH 
 ```sh
 # insde the CLI you can go to the Http server page: 
-vi /home/site/wwwroot/hostingstart.html
-# modify the sentence: "Your web app is running and waiting for your content" save it
-service nginx restart
-# restart Http server
-```
-then go back to the portal on the app service and click on restart:
-it could take up to 5 minutes for your content to show up
 
+
+vi /home/site/wwwroot/hostingstart.html # modify the sentence: "hey developers" to "Hey YOURNAME HERE" save it
+
+nginx -s reload # send signal reload to Http server
+```
+then refresh the website and you should see your modification on the "hostingstart.html" file
 
 
 **Resources should be deleted after being used by the customer from the Azure portal. Otherwise, the customer will be highly charged according to the subscription criteria.**

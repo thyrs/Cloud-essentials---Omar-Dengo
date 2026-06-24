@@ -140,7 +140,6 @@ These specific datacenters aren't exposed to users directly. Instead, Azure orga
 
 A region is a geographical area on the planet that contains at least one but potentially multiple datacenters that are nearby and networked together with a low-latency network. Azure intelligently assigns and controls the resources within each region to ensure workloads are appropriately balanced.
 
-
 Global map of available Azure regions as of June 2020.
 
 These regions give you the flexibility to bring applications closer to your users no matter where they are. Global regions provide better scalability and redundancy. They also preserve data residency for your services.
@@ -176,16 +175,18 @@ Having a broadly distributed set of datacenters allows Azure to provide a high g
 
 
 
-## Azure Compute Services
+
+
+# Azure Compute Services
 
 Azure compute is an on-demand computing service for running cloud-based applications. It provides computing resources such as disks, processors, memory, networking, and operating systems. The resources are available on-demand and can typically be made available in minutes or even seconds. You pay only for the resources you use, and only for as long as you're using them.
 
 
 ### Azure Virtual Machines
 With Azure Virtual Machines, you can create and use VMs in the cloud. VMs provide infrastructure as a service (IaaS) in the form of a virtualized server and can be used in many ways. Just like a physical computer, you can customize all of the software running on the VM. VMs are an ideal choice when you need:
-Total control over the operating system (OS).
-The ability to run custom software.
-To use custom hosting configurations.
+* Total control over the operating system (OS).
+* The ability to run custom software.
+* To use custom hosting configurations.
 An Azure VM gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs the VM. You still need to configure, update, and maintain the software that runs on the VM.
 
 ### Azure App 
