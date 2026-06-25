@@ -81,7 +81,7 @@ Subscriptions are bound to some hard limitations. For example, the maximum numbe
 
 ## Azure management groups
 
-If your organization has many subscriptions, you might need a way to efficiently manage access, policies, and compliance for those subscriptions. Azure management groups provide a level of scope above subscriptions. You organize subscriptions into containers called management groups and apply your governance conditions to the management groups.
+If your organization has many subscriptions, you might need a way to efficiently manage access, policies, and compliance for those subscriptions. **Azure management groups provide a level of scope above subscriptions.** You organize subscriptions into containers called management groups and apply your governance conditions to the management groups.
 
 Management groups give you enterprise-grade management at a large scale no matter what type of subscriptions you might have. All subscriptions within a single management group must trust the same Azure AD tenant.
 ![alt text](Management_groupsimage-6.png)

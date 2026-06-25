@@ -1,7 +1,5 @@
-
-
-
 # Use DuckDuckGo instead of Google:
+
 research and try this:
 ```
 https://www.ghacks.net/2021/04/15/how-to-use-duckduckgo-instead-of-google-and-other-sites-to-get-faster-and-precise-results
