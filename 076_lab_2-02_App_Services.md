@@ -41,6 +41,10 @@ Below are some steps to creating a Web App using Azure App services.
 
 vi /home/site/wwwroot/hostingstart.html # modify the sentence: "hey developers" to "Hey YOURNAME HERE" save it
 
+vi /usr/share/nginx/html/index.html
+# use this if the the otherone doesnt work
+
+
 nginx -s reload # send signal reload to Http server
 ```
 then refresh the website and you should see your modification on the "hostingstart.html" file
