@@ -13,16 +13,16 @@
 
 
 # Azure Storage Services
-It is a service that you can use to store files, messages, tables, and other types of information. Clients such as websites, mobile apps, desktop applications, and many other types of custom solutions can read data from and write data to Azure Storage. Azure Storage is also used by infrastructure as a service virtual machines, and platform as a service cloud services.
+It is a service that you can use to **store files, messages, tables, and other types of information**. Clients such as websites, mobile apps, desktop applications, and many other types of custom solutions can read data from and write data to Azure Storage. Azure Storage is also used by infrastructure as a service virtual machines, and platform as a service cloud services.
 To begin using Azure Storage, you first create an Azure Storage account to store your data objects. You can create an Azure Storage account by using the Azure portal, PowerShell, or the Azure CLI.
 
 
 ### Disk storage
-Disk Storage provides disks for Azure virtual machines. Applications and other services can access and use these disks as needed, similar to how they would in on-premises scenarios. Disk Storage allows data to be persistently stored and accessed from an attached virtual hard disk.
+**Disk Storage provides disks for Azure virtual machines**. Applications and other services can access and use these disks as needed, similar to how they would in on-premises scenarios. Disk Storage allows data to be persistently stored and accessed from an attached virtual hard disk.
 Disks come in many different sizes and performance levels, from solid-state drives (SSDs) to traditional spinning hard disk drives (HDDs), with varying performance tiers.
 
 ### Blob storage
-Azure Blob Storage is an object storage solution for the cloud. It can store massive amounts of data, such as text or binary data. Azure Blob Storage is unstructured, meaning that there are no restrictions on the kinds of data it can hold.
+Azure **Blob Storage is an object storage solution for the cloud**. It can store **massive amounts of data, such as text or binary data**. Azure Blob Storage is unstructured, meaning that there are **no restrictions on the kinds of data it can hold.**
 Blob Storage can manage thousands of simultaneous uploads, massive amounts of video data, constantly growing log files, and can be reached from anywhere with an internet connection.
 Blob Storage is ideal for:
 * Serving images or documents directly to a browser.
@@ -34,14 +34,14 @@ Blob Storage is ideal for:
 
 
 ### Azure Files
-Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block and Network File System (preview) protocols. Azure file shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS. 
+Azure Files offers fully **managed file shares** in the cloud that are accessible via the industry standard Server Message Block and Network File System (preview) protocols. Azure file shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS. 
 Typical usage scenarios would be to share files anywhere in the world, diagnostic data, or application data sharing. Use Azure Files for the following situations:
 * Many on-premises applications use file shares. 
 * Store configuration files on a file share and access them from multiple VMs. 
 * Write data to a file share, and process or analyze the data later. 
 
 
-Azure Storage offers different access tiers for your blob storage, helping you store object data in the most cost-effective manner. The available access tiers include:
+**Azure Storage offers different access tiers for your blob storage**, helping you store object data in the most cost-effective manner. The available access tiers include:
 - **Hot access tier:** Optimized for storing data that is accessed frequently (for example, images for your website).
 - **Cool access tier:** Optimized for data that is infrequently accessed and stored for at least 30 days (for example, invoices for your customers).
 - **Archive access tier:** Appropriate for data that is rarely accessed and stored for at least 180 days, with flexible latency requirements (for example, long-term backups).
@@ -57,7 +57,7 @@ Azure Cosmos DB is a globally distributed, multi-model database service. You can
 Azure Cosmos DB supports schema-less data, which lets you build highly responsive and "Always On" applications to support constantly changing data.
 
 ### Azure SQL Database
-Azure SQL Database is a relational database based on the latest stable version of the Microsoft SQL Server database engine. SQL Database is a high-performance, reliable, fully managed, and secure database. You can use it to build data-driven applications and websites in the programming language of your choice, without needing to manage infrastructure.
+Azure SQL Database is a **relational database** based on the latest stable version of the Microsoft SQL Server database engine. SQL Database is a high-performance, reliable, fully managed, and secure database. You can use it to build data-driven applications and websites in the programming language of your choice, without needing to manage infrastructure.
 You can use advanced query processing features, such as high-performance, in-memory technologies and intelligent query processing.
 
 ### Azure SQL Managed Instance
@@ -65,7 +65,7 @@ Azure SQL Managed Instance is a scalable cloud data service that provides the br
 Like Azure SQL Database, Azure SQL Managed Instance is a platform as a service (PaaS) database engine, which means that your company will be able to take advantage of the best features of moving your data to the cloud in a fully-managed environment.
 
 ### Azure database for MySQL
-Azure Database for MySQL is a relational database service in the cloud, and it's based on the MySQL Community Edition database engine, versions 5.6, 5.7, and 8.0. 
+Azure Database for MySQL is a **relational database** service in the cloud, and it's based on the MySQL Community Edition database engine, versions 5.6, 5.7, and 8.0. 
 Azure Database for MySQL delivers:
 Built-in high availability with no additional cost.
 Predictable performance and inclusive, pay-as-you-go pricing.
@@ -75,13 +75,13 @@ Automatic backups.
 Enterprise-grade security and compliance.
 
 ### Azure Database for PostgreSQL
-Azure Database for PostgreSQL is a relational database service in the cloud. The server software is based on the community version of the open-source PostgreSQL database engine. 
+Azure Database for PostgreSQL is a **relational database** service in the cloud. The server software is based on the community version of the open-source PostgreSQL database engine. 
 Moreover, Azure Database for PostgreSQL delivers the following benefits:
-Built-in high availability compared to on-premises resources. T
-Simple and flexible pricing. 
-Scale up or down as needed, within seconds. 
-Adjustable automatic backups and point-in-time-restore for up to 35 days.
-Enterprise-grade security and compliance to protect sensitive data at-rest and in-motion.
+* Built-in high availability compared to on-premises resources. 
+* Simple and flexible pricing. 
+* Scale up or down as needed, within seconds. 
+* Adjustable automatic backups and point-in-time-restore for up to 35 days.
+* Enterprise-grade security and compliance to protect sensitive data at-rest and in-motion.
 
 
 ## What is Azure virtual networking?
