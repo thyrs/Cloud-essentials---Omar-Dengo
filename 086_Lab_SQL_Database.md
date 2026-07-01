@@ -1,11 +1,9 @@
+# Lab - Create SQL Database
 
 
-# Lab 5-02 Create SQL Database
+**Scenario:** An organization is new to Azure. Their database team is assigned to use the Azure service to make a database and then query all on-premises data in that database. How would they do that?
 
-
-Lab 5-02: Create SQL Database
-Scenario An organization is new to Azure. Their database team is assigned to use the Azure service to make a database and then query all on-premises data in that database. How would they do that?
-Solution: The organization fulfills the above requirement by using the Azure SQL Database service.
+**Solution:** The organization fulfills the above requirement by using the Azure SQL Database service.
 
 01. Log in to the Microsoft Azure portal and go to the portal menu.
 02. Go to the main menu and click on Create a resource.
@@ -15,18 +13,19 @@ Solution: The organization fulfills the above requirement by using the Azure SQL
 06. Write a unique name for your database.
 07. Click on Create new to create a new SQL server.
 08. To configure the SQL server, write a unique server name.
-09. Select Location. Note: You should select the exact location in which the resource group is present.
-10. Scroll down, and select the Use SQL Authentication method.
+09. Select Location. *Note: You should select the exact location in which the resource group is present.*
+10. Scroll down, and select the "Use SQL Authentication method".
 11. Create unique SQL Server login credentials.
 12. Click on OK.
 13. Acknowledge the recently created SQL server in the selected location.
 14. Select No option for SQL elastic pool.
+- Workload environment = Development
 15. Select the Geo-redundant backup storage option to backup storage redundancy.
 16. Click on Next: Networking >.
 17. In the Networking section, select Public endpoint for Network connectivity.
 18. Select the Minimum TSL version.
 19. Click on Next: Security >.
-20. In the Security section, select the Start free trial option to Enable Azure Defender for SQL.
+20. In the Security section,  select NO for the Start free trial option to Enable Azure Defender for SQL. 
 21. Click on Next: Additional Settings >.
 22. In the Additional Settings section, use the Sample option for Use exiting data.
 23. Click on Review + create.
@@ -49,6 +48,11 @@ Solution: The organization fulfills the above requirement by using the Azure SQL
 40. Now, go to the Query editor (preview) option again and log in with the same SQL service credential.
 41. The query editor will successfully open now.
 42. Inside the Query 1 section, enter the following code and click on Run.
-43. Explore the results with Query succeeded statement. The database will be created, and you can successfully query the data.
+```sql
+SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
+FROM SalesLT.ProductCategory pc
+JOIN SalesLT.Product p ON pc.ProductCategoryID = p.ProductCategoryID;
+```
+43. Explore the results with Query succeeded statement. The database will be created, and you can successfully query the data. (take screenshot)
 
 **Resources should be deleted after being used by the customer from the Azure portal. Otherwise, the customer will be highly charged according to the subscription criteria.**

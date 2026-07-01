@@ -1,6 +1,6 @@
 
 
-# Lab 2-02 Azure App Services
+# Lab - Azure App Services
 
 **Scenario:** An organization wants to deploy a web app by using an Azure service that provides a fully managed infrastructure environment for customers and developers to develop and manage applications without having to worry about managing the infrastructure. How can this be done?
 
@@ -39,7 +39,8 @@ Below are some steps to creating a Web App using Azure App services.
 # insde the CLI you can go to the Http server page: 
 
 
-vi /home/site/wwwroot/hostingstart.html # modify the sentence: "hey developers" to "Hey YOURNAME HERE" save it
+vi /home/site/wwwroot/hostingstart.html 
+# modify the sentence: "hey developers" to "Hey YOURNAME HERE" save it
 
 vi /usr/share/nginx/html/index.html
 # use this if the the otherone doesnt work

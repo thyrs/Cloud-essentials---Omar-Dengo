@@ -1,6 +1,4 @@
-041_Lab_4-01_Storage_Account
-
-# Lab 4-01 Creating a Storage Account
+# Lab - Creating a Storage Account
 
 Scenario: John has an organization for which he wants storage in Azure Cloud to store essential documents. Which storage option can he use to store the documents? 
 Solution: By using Azure Storage, he can store his organization’s vital documents.
@@ -28,7 +26,7 @@ Solution: By using Azure Storage, he can store his organization’s vital docume
 17. Change it to read-only access for blobs. Click “OK.”
 18. You can now access this file over the internet by its URL. Click on the file and copy the URL.
 19. Paste it in your browser, and then you will see that the file is accessible over the internet.
-take Screenshot
+20. take Screenshot
 
 ![alt text](https://mystaorageaccut.blob.core.windows.net/newcontainer/newdirect/unnamed%20(1).jpg)
 
