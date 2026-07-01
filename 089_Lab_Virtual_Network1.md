@@ -32,5 +32,5 @@ to check and see the properties of a virtual machine.
 25. The virtual network and subnet are the same as those configured before.
 26. Properties of a virtual machine show that a virtual machine is created within “Ipsvnet.”
 Similarly, other Azure resources may also be added within the same network.
-
 **Resources should be deleted after being used by the customer from the Azure portal. Otherwise, the customer will be highly charged according to the subscription criteria.**
+Mind Map

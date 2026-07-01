@@ -19,6 +19,7 @@ Solution: Using Cosmos DB as a database benefits you from scaling your database 
 - add container
 - add data
  <!-- pending -->
+ 
 
 08. Now, click on “Replicate Data Globally.”
 09. Here, you can enable more data centers. The blue ticks on the map indicate where your actual data center is.

@@ -1,4 +1,3 @@
-
 041_Lab_4-01_Storage_Account
 
 # Lab 4-01 Creating a Storage Account
