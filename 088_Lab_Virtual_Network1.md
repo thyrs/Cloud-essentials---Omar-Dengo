@@ -9,7 +9,7 @@ secure network.
 03. Click on “Create” for the creation of a virtual network.
 04. Once the virtual network window appears, write the name of VNet and address space.
 05. Now, click on “Create new” and write the name of the resource group.
-06. Write the range of IP addresses that are in a group. (use the 192.168.97.0/25 network)
+06. Write the range of IP addresses that are in a group. (use the 192.168.97.0/24 network)
 07. Leave the remaining options as it is, and click on “Create.”
 08. Your VNet will now be created; click on “Refresh” to see the created VNet.
 09. After creating the VNet, switch back to the portal menu and add another resource to this VNet.

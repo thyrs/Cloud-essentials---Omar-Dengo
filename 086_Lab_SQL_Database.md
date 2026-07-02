@@ -12,7 +12,7 @@
 05. After that, scroll down and enter the Database details.
 06. Write a unique name for your database.
 07. Click on Create new to create a new SQL server.
-08. To configure the SQL server, write a unique server name.
+08. To configure the "SQL server", write a unique server name.
 09. Select Location. *Note: You should select the exact location in which the resource group is present.*
 10. Scroll down, and select the "Use SQL Authentication method".
 11. Create unique SQL Server login credentials.
@@ -47,7 +47,7 @@
 39. Click on Save to save the settings.
 40. Now, go to the Query editor (preview) option again and log in with the same SQL service credential.
 41. The query editor will successfully open now.
-42. Inside the Query 1 section, enter the following code and click on Run.
+42. click on "New query" > Inside the Query 1 section, enter the following code and click on Run.
 ```sql
 SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
 FROM SalesLT.ProductCategory pc
