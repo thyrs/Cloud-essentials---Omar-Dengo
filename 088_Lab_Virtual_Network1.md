@@ -23,6 +23,7 @@ secure network.
 17. After that, click “Next: Disks >,” and the disk tab will open.
 18. Click “Next: Networking >” to move to the networking tab.
 19. A virtual network and subnet have already been selected. This means a virtual machine is created within “Ipsvnet.”
+*  **make sure the "192.168.97.0/24 network" is selected here**
 20. Leave the remaining options as default.
 21. Click on “Review + create.”
 22. It will take some time to check the validity of entered properties.
