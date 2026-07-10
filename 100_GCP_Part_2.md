@@ -1,14 +1,14 @@
 ### Week 10 - GCP Fundamentals Part 2: Storage and Network Services
 
-* **GCP Database**
+- **GCP Database**
     - Cloud SQL
     - Cloud Spanner
     - Firestore and Cloud Bigtable
-* **Storage services**
+- **Storage services**
     - Cloud Storage
     - Persistent disks on Compute Engine
     - Fully managed NFS file servers in Filestore
-* **GCP Networking Services**
+- **GCP Networking Services**
     - Virtual Private Cloud (VPC)
     - Firewall rules
     - Routes
