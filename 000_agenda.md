@@ -10,13 +10,15 @@ Upon completing this course, participants will be equipped to:
 •	Gain awareness of **Amazon Web Services (AWS)** and understand its role in the cloud computing landscape. Conduct a comparative analysis of AWS with Microsoft Azure and Google Cloud to grasp the unique strengths and offerings of each provider.
 
 ### Path:
-![alt text](image-5.png)
+![Cloud_Essentials_Path](./images/Cloud_Essentials_Path.png)
 
-| Cloud Essentials  |       |
-| ----------------- | ----- |
-| Final Online Exam | 40%   |
-| Final LAB Exam    | 60%   |
-| TOTAL             | 100%* |
+| Cloud Essentials  |        |
+| ----------------- | ------ |
+| Weekly Labs       | 25%    |
+| Final Online Exam | 15%    |
+| Final LAB Exam    | 60%    |
+| ----------------- | ------ |
+| TOTAL             | 100%*  |
 
 *Min to pass: 70%
 
@@ -48,23 +50,23 @@ Azure Part 1
 ### Week 8
 Azure Part 2
 
-### Week 9  
+### Week 9  - 8 julio
 GCP Part 1
 
-### Week 10  
+### Week 10  - 15 julio
 GCP Part 2
 
-### Week 11  
+### Week 11  - 22 julio
 AWS Part 1
 
-### Week 12  
+### Week 12  - 29 julio
 AWS Part 2
 
-### Week 13  
+### Week 13  - 5 Ago
 Practice and active exam in ANKI
 
-### Week 14
+### Week 14  - 12 Ago
 Final Practice lab exam
 
-### Week 15
+### Week 15  - 19 Ago
 Final LAB exam
