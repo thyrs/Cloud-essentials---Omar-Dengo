@@ -34,7 +34,7 @@ sudo systemctl restart sshd # restart ssh service #! Do not forget
 sudo service ssh restart # for some linux version you need this!
 ```
 
-1. Create the VM
+1. Create the template, then go to the template you created and deploy and instance of that template, click on "create VM" > create
 
 ### Connect to the VM:
 
