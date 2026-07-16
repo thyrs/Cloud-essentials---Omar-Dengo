@@ -12,7 +12,7 @@ https://cloudwebschool.com/docs/gcp/compute/creating-your-first-vm/
 1. click on "create instance"
 1. add there general info: name, region...
 1. on the machine type choose the cheaper one: E2 - low cost, day-to-today computing
-1. select the smallest one: e2-micro (2 vCPU, 1 core, 1 GB memory)
+1. select the smallest one: e2-small
 1. option: on Provisioning model you can choose: spot and you will get a disccount for using Gcloud spare resources
 1. check the box for: Set a time limit for the VM, and set it to 3 hours
 1. on "on VM termination" make your u select: "DELETE" (this will delete your VM within 3 hours in case you forget to do it)
