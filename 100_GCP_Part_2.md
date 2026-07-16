@@ -24,14 +24,14 @@ Google Cloud provides a variety of SQL and NoSQL database services:
 ### Cloud SQL
 https://www.youtube.com/watch?v=Kl8ig2BtLAY
 Cloud SQL is a fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud Platform.
-You can use Cloud SQL with MySQL, PostgreSQL, or SQL Server.
+You can use Cloud __SQL__ with MySQL, PostgreSQL, or __SQL__ Server.
 
 ### Cloud Spanner
-Cloud Spanner is a fully managed, mission-critical, relational database service that offers transactional consistency at global scale, schemas, SQL (ANSI 2011 with extensions), and automatic, synchronous replication for high availability.
+Cloud Spanner is a fully managed, mission-critical, relational database service that offers transactional consistency at global scale, schemas, __SQL__ (ANSI 2011 with extensions), and automatic, synchronous replication for high availability.
 
 ### Firestore and Cloud Bigtable
-Developers describe Google Cloud Bigtable as "The same database that powers Google Search, Gmail and Analytics". Google Cloud Bigtable offers you a fast, fully managed, massively scalable NoSQL database service that's ideal for web, mobile, and Internet of Things applications requiring terabytes to petabytes of data.
-On the other hand, Cloud Firestore is detailed as "NoSQL database built for global apps". Cloud Firestore is a NoSQL document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale.
+Developers describe Google Cloud Bigtable as "The same database that powers Google Search, Gmail and Analytics". Google Cloud Bigtable offers you a fast, fully managed, massively scalable __NoSQL__ database service that's ideal for web, mobile, and Internet of Things applications requiring terabytes to petabytes of data.
+On the other hand, Cloud Firestore is detailed as "__NoSQL__ database built for global apps". Cloud Firestore is a __NoSQL__ document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale.
 
 ---
 
@@ -70,6 +70,8 @@ https://www.youtube.com/watch?v=QcsAb2RR52c
 You can use Filestore instances to store data from applications running on Compute Engine VM instances or GKE clusters.
 
 
+
+
 # GCP Fundamentals Part 3: Network Services
 By Foundever Costa Rica
 Foundever Costa Rica
@@ -82,7 +84,7 @@ While App Engine manages networking for you, and GKE uses the Kubernetes model, 
 ### Virtual Private Cloud (VPC)
 It provides a set of networking services that your VM instances use. An instance can have more than one interface, but each interface must be connected to a different network. 
 
-Every VPC project has a default network. You can create additional networks in your project, but networks cannot be shared between projects.
+Every VPC project has a default network. You can create additional networks in your project, but __networks cannot be shared between projects.__
 
 A VPC network provides the following:
 

@@ -28,8 +28,13 @@ https://www.youtube.com/watch?v%3DhYaCCpvjsEY
 DISK > 8GB
 
 1. click finish
+
+### Turn on the VM:
+
 1. right click the name of VM and click
 1. Start > start with GUI
-
-> follow the steps to get into the OS
-> Run VM and send and screenshot with the terminal open on the screen and showing the VM name
+1. follow the steps to get into the OS
+1. Run VM and send and screenshot with the terminal open on the screen and showing the VM name with this command:
+```sh
+uname -a
+```
