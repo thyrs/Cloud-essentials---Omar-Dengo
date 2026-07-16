@@ -111,7 +111,7 @@ Files are used to store data such as text, graphics and programs. Directories ar
 cd [options] [path]
 ```
 
-![alt text](image.png)
+![alt text](./images/Directories.png)
 
 *If you look back at the graphic above, you will see the Documents directory is located within the home directory, where you are currently located. To move to the Documents directory, use it as argument to the cd command:*
 
@@ -145,7 +145,7 @@ $pwd
 
 ## Bash Shortcuts
 
-[8 Bash Shortcuts Every Linux User Should Know](https://www.youtube.com/watch?v%3DC-AQAJXdoS8)
+[8 Bash Shortcuts Every Linux User Should Know](./images/https://www.youtube.com/watch?v%3DC-AQAJXdoS8)
 *There are more shortcuts that can be used within the bash, make sure you research on them, and practice them.*
 ```sh
 ctrl + c # Stop the current command
@@ -207,7 +207,7 @@ A group is a collection of users. The main purpose of the groups is to define a 
 Users can be added to an existing group to utilize the privileges it grants.
 
 
-![alt text](image-1.png)
+![alt text](./images/group.png)
 
 
 What is a sudoers or superusers?

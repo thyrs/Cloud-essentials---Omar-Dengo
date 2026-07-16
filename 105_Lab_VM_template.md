@@ -13,7 +13,7 @@
 1. check the box for: Set a time limit for the VM, and set it to 4 hours
 1. on "on VM termination" make your u select: "DELETE" (this will delete your VM within 4 hours in case you forget to do it)
 
-1. go to the **next**: OS and Storage:
+1. go to the **next**: Boot Disk:
 1. change OS and select: Ubuntu, Ubuntu 24.04 LTS Minimal x86/64 (always try to use a "LTS" long time support version and dont use the newest version)
 1. use a size of 30GB for the disk
 

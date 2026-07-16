@@ -35,7 +35,7 @@ There are **two deployments models** used on the traditional data center:
 
 
 ### *VIDEO* 10 Things to Look for in a Colocation Provider
-[10 Things to Look for in a Colocation Provider](https://www.youtube.com/watch?v%3DaQ8QE7gTt8g)
+[10 Things to Look for in a Colocation Provider](./images/https://www.youtube.com/watch?v%3DaQ8QE7gTt8g)
 
 ---
 
@@ -59,7 +59,7 @@ In traditional large data centers, the network is usually a three-tier structure
 
 This model contains the following three layers:
 
-![three-tier_structure_networking](three-tier_structure_networking.png)
+![three-tier_structure_networking](./images/three-tier_structure_networking.png)
 
 ### Access Layer
 - Controls user and workgroup access to the resources on the network. This layer usually incorporates Layer 2 switches and access points that provide connectivity between workstations and servers. You can manage access control and policy, create separate collision domains, and implement port security at this layer.
@@ -104,7 +104,7 @@ It also allows for __isolation__, keeping programs running inside of a virtual m
 
 
 ### *VIDEO* Virtualization Explained
-[Virtualization Explained](https://www.youtube.com/watch?v%3DFZR0rG3HKIk)
+[Virtualization Explained](./images/https://www.youtube.com/watch?v%3DFZR0rG3HKIk)
 
 #### Hypervisor
 - Type1 Hypervisor: __bare metal__ (VMware, hyper-V, KVM)
@@ -121,7 +121,7 @@ It also allows for __isolation__, keeping programs running inside of a virtual m
 
 ## Types of Virtualization
 
-![alt text](Types_of_Virtualization.png)
+![alt text](./images/Types_of_Virtualization.png)
 
 ### Server Virtualization
 Server virtualization allows for many virtual machines to run on one physical server. The virtual servers share the resources of the physical server, which leads to better utilization of the physical servers resources. 
@@ -152,19 +152,19 @@ The virtualization of the desktop, which sometimes is referred to as Virtual Des
 In the next section, you will deploy your first Virtual Machine using a Type2 Hypervisor, in order to complete this task, just follow the instruction displayed below
 
 *VIDEO*
-[How to install Ubuntu 22.10 LTS in VirtualBox 2026](https://www.youtube.com/watch?v%3DhYaCCpvjsEY)
+[How to install Ubuntu 22.10 LTS in VirtualBox 2026](./images/https://www.youtube.com/watch?v%3DhYaCCpvjsEY)
 
 Video taken from TopNotch Programmer 
 
 
 # LAB 025
-check file: [install VM instance with virtual box](<025 Lab.md>)
+check file: [install VM instance with virtual box](./images/<025 Lab.md>)
 
 
 # Software-Define Data Center (SDDC)
 
 *VIDEO*
-[The Software-Defined Data Center](https://www.youtube.com/watch?v%3DJf0KdjpxgCI)
+[The Software-Defined Data Center](./images/https://www.youtube.com/watch?v%3DJf0KdjpxgCI)
 
 Since the introduction of server virtualization years ago, organizations have recognized the value of pooling infrastructure resources. By abstracting compute resources from physical servers, server virtualization helps speed provisioning, improve system utilization, and reduce hardware expenditures.
 
@@ -213,6 +213,6 @@ There are storage availability benefits too. With the right backup or disaster r
 
 The SDDC results from years of evolution in server virtualization. It extends virtualization from compute to storage and networking resources, and it provides a single software toolset to manage those virtualized resources. 
 
-![alt text](Components_of_Software_Defied_Data_Center.png)
+![alt text](./images/Components_of_Software_Defied_Data_Center.png)
 SDDC enables policy-driven automation of provisioning and management, which speeds the delivery of resources and enhances efficiency.
 

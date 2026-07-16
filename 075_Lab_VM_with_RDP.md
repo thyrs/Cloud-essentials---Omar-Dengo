@@ -2,7 +2,7 @@
 
 # Lab - Configuration of Windows Virtual Machine in Azure using RDP
 
-[Quickstart: Create a Windows virtual machine in the Azure portal](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+[Quickstart: Create a Windows virtual machine in the Azure portal](./images/https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
 Scenario: An organization wants to find a solution to process the data stored in the same format from different applications built on a virtual machine.
 

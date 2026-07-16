@@ -224,7 +224,7 @@ Connectivity can be from an any-to-any (IP VPN) network, a point-to-point Ethern
 
 There are several benefits to using ExpressRoute as the connection service between Azure and on-premises networks.
 
-![alt text](ExpressRouteimage-4.png)
+![alt text](./images/ExpressRouteimage-4.png)
 With ExpressRoute, your data doesn't travel over the public internet, so it's not exposed to the potential risks associated with internet communications.
 
 * Layer 3 connectivity between your on-premises network and the Microsoft Cloud through a connectivity provider. 

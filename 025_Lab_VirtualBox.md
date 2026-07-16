@@ -1,7 +1,7 @@
 
 # install VM instance with virtual box
 ### How to install Ubuntu 22.10 LTS in VirtualBox 2026:
-[How to install Ubuntu 22.10 LTS in VirtualBox 2026:](https://www.youtube.com/watch?v%3DhYaCCpvjsEY)
+[How to install Ubuntu 22.10 LTS in VirtualBox 2026:](./images/https://www.youtube.com/watch?v%3DhYaCCpvjsEY)
 
 ```
 https://www.youtube.com/watch?v%3DhYaCCpvjsEY

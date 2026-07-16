@@ -144,7 +144,7 @@ When it comes to command input and output there are three paths, or “tracks”
 
 HakTip - Linux Terminal 101 - I/O Redirection of Standard Outputs
 
-[HakTip - Linux Terminal 101 - I/O Redirection of Standard Outputs](https://www.youtube.com/watch?v%3Dy_UbStpJHpI)
+[HakTip - Linux Terminal 101 - I/O Redirection of Standard Outputs](./images/https://www.youtube.com/watch?v%3Dy_UbStpJHpI)
 ```sh
 STDIN= Standard input = 0 # information I give to "BASH"
 STDOU= Standard output = 1 # information "BASH" gives me

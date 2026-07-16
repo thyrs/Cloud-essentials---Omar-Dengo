@@ -10,7 +10,7 @@ In other words,  cloud computing is the delivery of computing services—includi
 
 You typically pay only for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently, and scale as your business needs change.
 
-[What is "The Cloud" as Fast As Possible](https://www.youtube.com/watch?v%3DdsKIpLKo8AE)
+[What is "The Cloud" as Fast As Possible](./images/https://www.youtube.com/watch?v%3DdsKIpLKo8AE)
 
 # Types of cloud computing - Public Clouds, Private Clouds and Hybrid Clouds
 
@@ -35,7 +35,7 @@ Cloud services are infrastructure, platforms, or software that are hosted by thi
 
 All infrastructure, platforms, software, or technologies that users access through the internet without requiring additional software downloads can be considered cloud services—including the following as-a-Service solutions.
 
-![alt text](image-2.png)
+![alt text](./images/Paas-2.png)
 Iaas
 Paas
 Saas
@@ -180,7 +180,7 @@ Risk-based authentication has just started to gain popularity. Risk-based authen
 
 Each authentication attempt is given a risk score. If the risk score exceeds a certain value, the Web site or service provider can request additional information before allowing access. This additional information could be in the form of security questions or an additional authentication factor.
 
-![alt text](image-3.png)
+![alt text](./images/Risk-based-3.png)
 
 ## AUTHORIZATION
 

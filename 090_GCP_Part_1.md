@@ -32,7 +32,7 @@ Some resources can be accessed only by resources that are located in the same re
 Other resources can be accessed only by resources that are located in the same zone. These zonal resources include VM instances, their types, and disks.
 
 
-![alt text](image-4.png)
+![alt text](./images/GCP-4.png)
 The  diagram shows the relationship between global scope, regions and zones, and some of their resources
 
 
@@ -79,7 +79,7 @@ You can run **gcloud** commands in the following ways:
 
 The Google Cloud resource hierarchy resembles the file system found in traditional operating systems as a way of organizing and managing entities hierarchically. Each resource has exactly one parent. This hierarchical organization of resources enables you to set access control policies and configuration settings on a parent resource, and the policies and Identity and Access Management (IAM) settings are inherited by the child resources
 
-![alt text](image-5.png)
+![alt text](./images/hierarchy-5.png)
 
 ### Organization
 The Organization resource is the root node of the Google Cloud resource hierarchy and all resources that belong to an organization are grouped under the organization node.

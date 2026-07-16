@@ -14,7 +14,7 @@ Cloud computing is the delivery of computing services—including servers, stora
 
 ## Types of Cloud services
 
-![alt text](image-2.png)
+![alt text](./images/Paas-2.png)
 
 * **Software as a Service** (SaaS) (Producto terminando) Torillas
     - Cloud provider provides applications and final services. office360, email,

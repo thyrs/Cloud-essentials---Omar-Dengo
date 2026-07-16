@@ -44,9 +44,9 @@ A LAN can be described as something that covers a small geographical area that's
 When communication takes place between devices on a LAN, there is a requirement to identify and thus differentiate between the devices on the network, this is accomplished thanks to the hostnames, MAC addresses, and IP addresses.
 
 <!-- 3 pictures -->
-![alt text](./images/image-1.png)
-![alt text](./images/image-2.png)
-![alt text](./images/image-3.png)
+![alt text](./images/netinfo-1.png)
+![alt text](./images/ips-2.png)
+![alt text](./images/mac-3.png)
 
 On the next session, we will cover the basics of Switching and Routing
 
@@ -59,7 +59,7 @@ In networking, a switch is a device that receives incoming packets of informatio
 
 The network switch keeps track of which device is attached to each of its ports. When a packet arrives on a network port, the switch looks at the recipient’s address contained in the packet. The switch then determines which port the recipient is on and sends the packet to that port.
 
-![alt text](./images/image-4.png)
+![alt text](./images/Switch-4.png)
 8-port unmanaged Switch
 
 Consider a small switch with eight ports, numbered 1 through 8. When the switch is powered on, it pays attention to the devices that it can connect to on each of its eight ports. It does this by studying the Ethernet packets that arrive on each port and taking note of the sender’s address contained in each packet.
@@ -158,11 +158,11 @@ A subnet is a network that falls within a Class A, B, or C network. Subnets are 
 
 ### Video
 Intro to IPv4 Subnetting
-[click to watch the video](https://www.youtube.com/watch?v%3DUCoVs1Ri1IA)
+[click to watch the video](./images/https://www.youtube.com/watch?v%3DUCoVs1Ri1IA)
 
 
 The illustration below shows an example of a network before and after subnetting has been applied. In the unsubnetted network, the network has been assigned the Class B address 144.28.0.0. All the devices on this network must share the same broadcast domain.
-![alt text](./images/image.png)
+![alt text](./images/router.png)
 
 In the second network, the first four bits, of the host ID, are used to divide the network into two small networks, identified as subnets 16 and 32. To the outside world (that is, on the other side of the router), these two networks still appear to be a single network identified as 144.28.0.0.
 
@@ -170,4 +170,4 @@ For example, the outside world considers the device at 144.28.16.22 to belong to
 
 
 # quiz
-check file: [tex019 quiz 6 questionst](<019 quiz 6 questions.md>)
+check file: [tex019 quiz 6 questionst](./images/<019 quiz 6 questions.md>)

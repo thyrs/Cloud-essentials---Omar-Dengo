@@ -72,7 +72,7 @@ Azure Marketplace is designed for IT pros and cloud developers interested in com
 ## Azure subscriptions
 
 An Azure **subscription is a logical unit of Azure services** that links to an Azure account, which is an identity in Azure Active Directory (Azure AD) or in a directory that Azure AD trusts
-![alt text](subscriptionsimage-5.png)
+![alt text](./images/subscriptionsimage-5.png)
 Limits should be considered as you create subscriptions on your account.
 
 A subscription provides you with authenticated and authorized access to Azure products and services. It also allows you to provision resources.
@@ -84,7 +84,7 @@ Subscriptions are bound to some hard limitations. For example, the maximum numbe
 If your organization has many subscriptions, you might need a way to efficiently manage access, policies, and compliance for those subscriptions. **Azure management groups provide a level of scope above subscriptions.** You organize subscriptions into containers called management groups and apply your governance conditions to the management groups.
 
 Management groups give you enterprise-grade management at a large scale no matter what type of subscriptions you might have. All subscriptions within a single management group must trust the same Azure AD tenant.
-![alt text](Management_groupsimage-6.png)
+![alt text](./images/Management_groupsimage-6.png)
 
 Some Important facts about management groups
 
@@ -116,7 +116,7 @@ When a user sends a request from any of the Azure tools, APIs, or SDKs, Resource
 
 The following image shows the role Resource Manager plays in handling Azure requests.
 
-![alt text](ResourceManagerimage-7.png)
+![alt text](./images/ResourceManagerimage-7.png)
 
 All capabilities that are available in the Azure portal are also available through PowerShell, the Azure CLI, REST APIs, and client SDKs.
 
@@ -157,7 +157,7 @@ Availability zones are primarily for VMs, managed disks, load balancers, and SQL
 
 Each Azure region is always paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as VM storage) across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect both regions at once. 
 
-![alt text](geographyimage-4.png)
+![alt text](./images/geographyimage-4.png)
 
 Diagram showing the relationship between geography, region pair, region, and datacenter. The geography box contains two region pairs. Each region pair contains two Azure regions. Each region contains three availability zones.
 

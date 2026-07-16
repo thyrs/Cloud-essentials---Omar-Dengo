@@ -102,7 +102,7 @@ print("hello my people")
 ## Adjuntar una imagen: (Con el archivo de texto en el mismo folder que el .md)
 <!-- user shortcut: Win+Shift+S -->
 
-![example Photo](x-example.jpg)
+![example Photo](./images/x-example.jpg)
 
 # Separacion (linea)
 

@@ -49,7 +49,7 @@ Supported database engines include:
 * MariaDB
 * Oracle Database
 * Microsoft SQL Server
-![alt text](image-6.png)
+![alt text](./images/Database-6.png)
 
 ### Amazon DynamoDB
 
@@ -59,7 +59,7 @@ Amazon DynamoDB is a key-value database service. It delivers single-digit millis
 * You do not have to install, maintain, or operate software.
 * As the size of your DB shrinks or grows, DynamoDB automatically scales to adjust for changes in capacity while maintaining consistent performance.
 Example of data in a nonrelational database:
-![alt text](image-7.png)
+![alt text](./images/DynamoDB-7.png)
 
 
 

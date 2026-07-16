@@ -27,7 +27,7 @@ Solution: By using Azure Storage, he can store his organization’s vital docume
 19. Paste it in your browser, and then you will see that the file is accessible over the internet.
 20. take Screenshot
 
-![alt text](https://mystaorageaccut.blob.core.windows.net/newcontainer/newdirect/unnamed%20(1).jpg)
+![alt text](./images/https://mystaorageaccut.blob.core.windows.net/newcontainer/newdirect/unnamed%20(1).jpg)
 
 **Resources should be deleted after being used by the customer from the Azure portal. Otherwise, the customer will be highly charged according to the subscription criteria.**
 
