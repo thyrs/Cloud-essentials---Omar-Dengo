@@ -9,7 +9,7 @@
 1. add there general info: name, region...
 1. on the machine type choose the cheaper one: E2 - low cost, day-to-today computing
 1. select the smallest one: e2-small
-1. option: on Provisioning model you can choose: spot and you will get a disccount for using Gcloud spare resources
+1. **Optional**: on "Provisioning model" you can choose: "spot" (you will get a disccount for using Gcloud spare resources)
 1. check the box for: Set a time limit for the VM, and set it to 4 hours
 1. on "on VM termination" make your u select: "DELETE" (this will delete your VM within 4 hours in case you forget to do it)
 
@@ -34,10 +34,10 @@ sudo systemctl restart sshd # restart ssh service #! Do not forget
 sudo service ssh restart # for some linux version you need this!
 ```
 
-1. Create the template, then go to the template you created and deploy and instance of that template, click on "create VM" > create
+1. Create the template, then go to the template you created and deploy an instance of that template, click on "create VM" > create
 
 ### Connect to the VM:
 
 1. open CMD login with username and password
 
-## send SS with the template info:
+## send SS with the template info: and u logging using username and password
