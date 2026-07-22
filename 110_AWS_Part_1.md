@@ -1,19 +1,19 @@
 ### Week 11 - AWS Fundamentals Part 1: Core Concepts
 
 
-## How does it work?
+### How does it work?
 * Infrastructure: Regions, Availability zones and Local Zones
     - AWS Regions
     - Availability Zones
     - Local Zones
 # Management Console
-## AWS Command Line Interface
-### Stay connected to your AWS resources
+* AWS Command Line Interface
+    - Stay connected to your AWS resources
 
-# Compute Service
-### Amazon EC2 instance types
-## Amazon EC2 Auto Scaling
-## AWS Lambda
+### Compute Service
+- Amazon EC2 instance types
+- Amazon EC2 Auto Scaling
+- AWS Lambda
 
 
 Amazon web service is a platform that offers flexible, reliable, scalable, easy-to-use and cost-effective cloud computing solutions.
@@ -21,6 +21,8 @@ Amazon web service is a platform that offers flexible, reliable, scalable, easy-
 AWS is a comprehensive, easy to use computing platform offered Amazon. The platform is developed with a combination of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.
 
 Amazon Web Services offers a wide range of different business purpose global cloud-based products. The products include storage, databases, analytics, networking, mobile, development tools, enterprise applications, with a pay-as-you-go pricing model.
+
+https://www.youtube.com/watch?v=a9__D53WsUs
 
 ## How does it work?
 
