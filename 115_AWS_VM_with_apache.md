@@ -7,7 +7,7 @@
 1. select the OS Images: Amazon Linux 2023 (kernel-6.1) 
 1. Architecture: 64-bit (86x)
     - (please note that you need to use "yum" instead of "apt" to install things on this linux OS)
-1. Instance type: t2.nano
+1. Instance type: t3.micro
 1. Create a Key pair (login) - (mandatory)
     - use RSA and .pem, you can use any name you want, make sure save it, otherwise you wont be able to access the VM
 1. under "Network settings", you can click on "edit" and make your the VM will have a "Auto-assign public IP" 
@@ -21,12 +21,12 @@
 #!/bin/bash
 sudo useradd -m esteban -s /bin/bash
 echo "esteban:estebanpass" | sudo chpasswd
-sudo usermod -aG sudo esteban # [a]dding "username" to the [G]roup of sudoers
+sudo usermod -aG wheel esteban # [a]dding "username" to the [G]roup of "sudoers"
 ```
 
 - Click on Launch instance
 - Open the resource
-- click on "Connect", you will see the SSH info, copy the command: (your info may be diferent)
+- click on "Connect" > SSH client, you will see the SSH info, copy the command: (your info may be diferent)
 - **when you paste the command on the CMD make sure you are in the same directory your SSH key is located**
 ```sh
 ssh -i "julio22.pem" ec2-user@ec2-44-202-239-143.compute-1.amazonaws.com
@@ -65,3 +65,4 @@ sudo systemctl restart httpd # restart webserver
 # refresh http://_you_VM_ip_or_domainname_ in your web browser and you should see your page, please note you are using port 80 with HTTP and NOT the regualar 443 with HTTPS
 ``` 
 - Send SS with your personalized website and showing the URL.
+- Send SS logging with ssh username and password
