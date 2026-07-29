@@ -65,12 +65,10 @@ Example of data in a nonrelational database:
 
 ### Other Database Services
 - Amazon Aurora is an enterprise-class relational database. It is compatible with MySQL and PostgreSQL relational databases. It is up to five times faster than standard MySQL databases and up to three times faster than standard PostgreSQL databases.
-- Amazon Redshift is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
-- Amazon ElastiCache is a service that adds caching layers on top of your databases to help improve the read times of common requests.
-- Amazon Neptune is a graph database service.
+- Amazon Redshift is a data warehousing service that you can use for __big data analytics__. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
+- Amazon ElastiCache is a service that adds caching layers on top of your databases to help __improve the read times__ of common requests.
+- Amazon Neptune is a __graph database service__.
 You can use Amazon Neptune to build and run applications that work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
-
-
 
 # Storage Services
 
