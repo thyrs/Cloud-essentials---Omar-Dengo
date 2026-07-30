@@ -27,11 +27,11 @@ AWS databases are built for business-critical, enterprise workloads, offering hi
 
 ### Relational Database  vs Non-relational Databases
 
-| Relational database                                                                                                                                                                                         | Non-relational Databases                                                                                                                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In a relational database, data is stored in a way that relates it to other pieces of data.                                                                                                                  | In a non-relational database, you create tables. A table is a place where you can store and query data.                                                                                                                            |
-| An example of a relational database might be the coffee shop’s inventory management system. Each record in the database would include data for a single item, such as product name, size, price, and so on. | Non-relational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for non-relational databases is key-value pairs. |
-| Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way.                         | In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes.                                                          |
+| Relational database                                                                                                                                                                                         | Non-relational Databases                                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In a relational database, data is stored in a way that relates it to other pieces of data.                                                                                                                  | In a non-relational database, you create tables. A table is a place where you can store and query data.                                                                                                                                |
+| An example of a relational database might be the coffee shop’s inventory management system. Each record in the database would include data for a single item, such as product name, size, price, and so on. | Non-relational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for non-relational databases is __key-value pairs__. |
+| Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way.                         | In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes.                                                              |
 
 https://www.youtube.com/watch?v=AbhnNqlOYWY
 
@@ -53,7 +53,7 @@ Supported database engines include:
 
 ### Amazon DynamoDB
 
-Amazon DynamoDB is a key-value database service. It delivers single-digit millisecond performance at any scale.
+Amazon __DynamoDB__ is a __key-value__ database service. It delivers single-digit millisecond performance at any scale.
 
 * DynamoDB is serverless, which means that you do not have to provision, patch, or manage servers.
 * You do not have to install, maintain, or operate software.
@@ -83,7 +83,7 @@ Amazon S3 provides easy-to-use management features so you can organize your data
 
 ### Amazon Elastic Block Store
 https://www.youtube.com/watch?v=77qLAl-lRpo
-Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. 
+Amazon Elastic Block Store (Amazon EBS) provides __persistent block storage volumes for use with Amazon EC2 instances__ in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. 
 
 Amazon EBS volumes offer the consistent and low-latency performance needed to run your workloads. With Amazon EBS, you can scale your usage up or down within minutes—all while paying a low price for only what you provision.
 

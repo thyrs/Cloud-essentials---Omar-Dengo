@@ -59,14 +59,14 @@ GCP Part 2
 ### Week 11  - 22 julio
 AWS Part 1
 
-### Week 12  - 29 julio
+### Week 12 - 29 julio
 AWS Part 2
 
-### Week 13  - 5 Ago
+### Week 13 - 5 Ago
 Practice and active exam in ANKI
 
-### Week 14  - 12 Ago
+### Week 14 - 12 Ago
 Final Practice lab exam
 
-### Week 15  - 19 Ago
+### Week 15 - 19 Ago
 Final LAB exam

@@ -15,7 +15,7 @@ We will deploy a wordpress website hosting its relational database in AWS RDS
 
 1. How to provision an RDS instance
     - Go to RDS under databases > Create database > full configuration > change the following settings:
-    - Engine MySQL > Templates "Sandbox" > Version 5.7.44 (you need to check: Enable RDS Extended Support box)
+    - Engine MySQL > Templates "Sandbox" or free tier > Version 5.7.44 (you need to check: Enable RDS Extended Support box)
 2. Settings
     - DB instance identifier: techcad
     - Master username: techcad
@@ -66,24 +66,22 @@ chkconfig httpd on
     - (find details under "Connectivity & security" > Endpoints)
 - Submit
 
- 
-
 - Copy the contents of next window into your clipboard
-- Go to the terminal and SSH into your EC2 instance, once in type the following commands
+- Go to the terminal and SSH into your EC2 instance, once in type the following commands:
  
 ```sh
 sudo su
 clear
 cd /var/www/html
 vi wp-config.php
-(paste the contents of the WordPress Window and save the file)
+# (paste the contents of the WordPress Window and save the file)
 ```
 
 Go back to the WordPress configurator in the browser > Run the installation
 
 * Site Title: Hola techcad
 * Username: techcad
-* Password: techcad
+* Password: techcad 
 * Enter your email address
 * Install WordPress
 
@@ -110,16 +108,16 @@ Actions > Reboot, enable Reboot with Failover > Cancel
 
 
 #### How to enable and create Read Replicas
-Click on Modify
-Go to Back up > Backup retention period 35 days > Continue
-Scheduling of Modifications >  Apply immediately > Modify DB instance
-Select the DB instance > Actions > Create Read Replica
-Change Region to one of your choice
-DB Instance identifier techcadreadreplica > Create read replica
-Notice the Roles and wait until the read replica is available
-Once available, select the read replica > Actions
-Notice we can Promote, allowing us to promote a read replica into a primary DB, and then we can add read replicas to it
-Delete our Read Replica
-Select > Actions Delete, type delete me
+- Click on Modify
+    * Go to Back up > Backup retention period 35 days > Continue
+    * Scheduling of Modifications >  Apply immediately > Modify DB instance
+    * Select the DB instance > Actions > Create Read Replica
+- Change Region to one of your choice
+    * DB Instance identifier techcadreadreplica > Create read replica
+    * Notice the Roles and wait until the read replica is available
+    * Once available, select the read replica > Actions
+- Notice we can Promote, allowing us to promote a read replica into a primary DB, and then we can add read replicas to it
+- Delete our Read Replica
+    * Select > Actions Delete, type delete me
 
 > From https://aws.amazon.com/rds/ 
