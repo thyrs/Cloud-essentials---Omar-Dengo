@@ -1,6 +1,7 @@
 # Week 13 – Final Practice Exam 
 #### (this is just practice, is not graded)
 
+* **Read all the instructions before you start**
 * Select a cloud provider.
 * Create a virtual network using the subnet 172.16.254.0/24.
 * Deploy a Windows virtual machine with RDP access enabled.
@@ -9,7 +10,7 @@
 * Submit a screenshot showing:
 * the output of the ip addr command on the Linux virtual machine, and
 * the output of the ipconfig command on the Windows virtual machine.
-* **In the screenshot, both machines must clearly show that they are connected to the same internal/private network.**
+* **In the screenshot, both machines must clearly show that they are connected to the same internal/private network. ping the other VM using the internal ip adddress**
 
 ### you can go to anki and take the final theory exam (15%)
 
