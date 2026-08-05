@@ -1,4 +1,4 @@
-# Configuring S3 with versioning
+# Configuring S3 with versioning [x]
 
 ### Step 1
 * look for "S3" in the menu or search bar > Create Bucket > Name choose a unique name > Next > Remove all marks so the Objects can be public > on "Object Ownership": ACLs enabled > Create Bucket.
@@ -24,7 +24,7 @@
 ### Step 6
 - Open the File to see its content now (Notice only the Newest version is available)
 - Let go back to the bucket and Notice 2 Versions
-- open the new version in a private window in your web browser and SS both versions
+- open the new version in a private window in your web browser and __SS both versions__
 
 ### Cleanup!
 

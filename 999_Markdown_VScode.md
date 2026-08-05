@@ -99,6 +99,12 @@ print("hello my people")
 | 2   | student | 100      | 92.6 | 83.32 |
 | 3   | student | 100      | 94.7 | 83.32 |
 
+|  #  | student | homework | exam | FINAL |
+| :-: | ------- | -------- | ---- | ----: |
+|  1  | student | 75       | 89.4 |    88 |
+|  2  | student | 100      | 92.6 | 83.32 |
+|  3  | student | 100      | 94.7 | 83.32 |
+
 ## Adjuntar una imagen: (Con el archivo de texto en el mismo folder que el .md)
 <!-- user shortcut: Win+Shift+S -->
 

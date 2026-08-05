@@ -1,4 +1,4 @@
-# AWS_VM_with_apache
+# AWS_VM_with_apache [x]
 
 ### Create a simple AWS VM with Amazon Linux 2023 and install a web server:
 1. Go to the menu and find the "EC2"

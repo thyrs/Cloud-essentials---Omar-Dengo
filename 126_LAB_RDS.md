@@ -1,5 +1,5 @@
 
-# LAB_RDS
+# LAB_RDS []
 
 We will deploy a wordpress website hosting its relational database in AWS RDS
 

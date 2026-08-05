@@ -12,6 +12,8 @@ Upon completing this course, participants will be equipped to:
 ### Path:
 ![Cloud_Essentials_Path](./images/Cloud_Essentials_Path.png)
 
+### Evaluation 
+
 | Cloud Essentials  |        |
 | ----------------- | ------ |
 | Weekly Labs       | 25%    |
