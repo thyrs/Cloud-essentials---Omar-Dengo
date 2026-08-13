@@ -19,3 +19,9 @@ wsl --unregister ubuntu
 wsl -d ubuntu
 # To launch a specific [d]istribution
 ```
+
+
+107.21.150.82
+Administrator
+
+vieja

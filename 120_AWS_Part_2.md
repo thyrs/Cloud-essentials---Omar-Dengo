@@ -12,6 +12,16 @@
     - Amazon Elastic Block Store
     - Amazon Elastic File System
 
+* Network Services
+    - Amazon VPC
+    - Internet gateway
+    - Virtual private gateway
+    - AWS Direct Connect
+    - Amazon Route 53
+    - Subnets, ACLs and Security Groups
+    - Network access control lists (ACLs)
+    - Security groups
+
 * GCP Networking Services
     - Virtual Private Cloud (VPC)
     - Firewall rules
@@ -112,7 +122,92 @@ When it comes to S3, it offers different storage classes, the characteristics of
 | S3 Glacier Deep Archive       | Lowest-cost object storage class ideal for archiving    | Able to retrieve objects within 12 hours                                        |
 
 
-# GCP Fundamentals Part 3: Network Services
+# Network Services
+
+### Amazon VPC
+
+Amazon Virtual Private Cloud (Amazon VPC)
+
+A networking service that you can use to establish boundaries around your AWS resources is Amazon Virtual Private Cloud (Amazon VPC).
+
+Amazon VPC enables you to provision an isolated section of the AWS Cloud. In this isolated section, you can launch resources in a virtual network that you define. Within a virtual private cloud (VPC), you can organize your resources into subnets. A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+
+***VPC and VPC subnet cannt be the same size***
+
+### Internet gateway
+
+An internet gateway is a connection between a VPC and the internet. You can think of an internet gateway as being similar to a doorway that customers use to enter the coffee shop.
+
+
+![alt text](./images/Internet_gateway.png)
+
+In other words is used to allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC
+
+
+### Virtual private gateway
+
+To access private resources in a VPC, you can use a virtual private gateway. The virtual private gateway is the component that allows protected internet traffic to enter into the VPC. 
+
+A virtual private gateway allows traffic into the VPC only if it is coming from an approved network.
+
+![alt text](./images/VPC.png)
+
+A virtual private gateway enables you to establish a virtual private network (VPN) connection between your VPC and a private network, such as an on-premises data center or internal corporate network.
+
+
+### AWS Direct Connect
+
+The private connection that AWS Direct Connect provides helps you to reduce network costs and increase the amount of bandwidth that can travel through your network.
+
+![alt text](./images/Direct_Connect.png)
+
+AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.
+
+### Amazon Route 53
+
+Amazon Route 53 is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
+
+Amazon Route 53 connects user requests to infrastructure running in AWS (such as Amazon EC2 instances and load balancers). It can route users to infrastructure outside of AWS.
+
+https://www.youtube.com/watch?v=RGWgfhZByAI
+
+Another feature of Route 53 is the ability to manage the DNS records for domain names. You can register new domain names directly in Route 53. You can also transfer DNS records for existing domain names managed by other domain registrars. This enables you to manage all of your domain names within a single location.
+
+## Subnets, ACLs and Security Groups
+
+As mentioned before, A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. But what you may not know yet is that you can associate secondary CIDR blocks with the VPC. 
+
+This options is possible with the usage of subnets, let's watch the following video for more information
+
+
+https://www.youtube.com/watch?v=KNT463WSjjY
+
+
+### Network access control lists (ACLs)
+
+Each AWS account includes a default network ACL. When configuring your VPC, you can use your account’s default network ACL or create custom network ACLs. 
+
+![alt text](./images/ACLSS.png)
+A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+
+By default, your account’s default network ACL allows all inbound and outbound traffic, but you can modify it by adding your own rules. For custom network ACLs, all inbound and outbound traffic is denied until you add rules to specify which traffic to allow. 
+
+Additionally, all network ACLs have an explicit deny rule. This rule ensures that if a packet doesn’t match any of the other rules on the list, the packet is denied.
+
+### Security groups
+
+A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+
+If you have multiple Amazon EC2 instances within a subnet, you can associate them with the same security group or use different security groups for each instance.
+
+![alt text](./images/SGEC2.png)
+By default, a security group denies all inbound traffic and allows all outbound traffic. You can add custom rules to configure which traffic to allow or deny.
+
+Both network ACLs and security groups enable you to configure custom rules for the traffic in your VPC. As you continue to learn more about AWS security and networking, make sure to understand the differences between network ACLs and security groups.
+
+![alt text](./images/SG.png)
+
+<!-- # GCP Fundamentals Part 3: Network Services
 
 ## GCP Networking Services
 
@@ -160,4 +255,4 @@ If you have an existing network that you want to connect to Google Cloud resourc
 - **Cloud Interconnect** enables you to connect your existing network to your VPC network through a highly available, low-latency, enterprise-grade connection. 
 - **Cloud VPN** enables you to connect your existing network to your VPC network through an IPsec connection. You can also use VPN to connect two Cloud VPN gateways to each other.
 - **Direct Peering** enables you to exchange internet traffic between your business network and Google at one of Google's broad-reaching edge network locations. See Google's peering site for more information about edge locations.
-- **Carrier Peering** enables you to connect your infrastructure to Google's network edge through highly available, lower-latency connections by using service providers.
+- **Carrier Peering** enables you to connect your infrastructure to Google's network edge through highly available, lower-latency connections by using service providers. -->
