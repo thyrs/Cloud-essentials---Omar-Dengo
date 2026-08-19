@@ -10,7 +10,7 @@
 1. Instance type: t3.micro
 1. Create a Key pair (login) - (mandatory)
     - use RSA and .pem, you can use any name you want, make sure save it, otherwise you wont be able to access the VM
-1. under "Network settings", you can click on "edit" and make your the VM will have a "Auto-assign public IP" 
+1. under "Network settings", you can click on "edit" and make sure your VM will have a "Auto-assign public IP" 
     - Also create a Firewall (security groups) and make sure the ports 22,80,443 and 3389 are open in the Firewall, click on "Add security group rule" if needed
 1. Under "Storage" use a disk of 10GB
 1. Under "Advance Options"

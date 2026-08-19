@@ -1,7 +1,21 @@
 # Markdown syntax
 
+**This lab is optional but very helpfull**
+
+we recommend to use VS Desktop version
+
+1. Watch this 2 videos so you are aware of some of the most usefull features on Vscode:
+
+#### You NEED to use VS Code RIGHT NOW! (remote SSH)
+https://www.youtube.com/watch?v=1ZfO149BJvg&ab_channel=NetworkChuck
+
+#### 25 VS Code Productivity Tips and Speed Hacks
+* https://www.youtube.com/watch?v=ifTF3ags0XI&ab_channel=Fireship
+
+
 # **VScode Tips & tricks.md**
 
+2. Install Vscode and these extentions:
 - VScode: https://code.visualstudio.com/Download
 - Extentions:
     * Better Comments by Aaron Bond
@@ -10,14 +24,13 @@
     * MySQL by Weijan Chen
     * Markdown Preview Mermaid Support by Matt Bierner
 
-## You NEED to use VS Code RIGHT NOW! (remote SSH)
-https://www.youtube.com/watch?v=1ZfO149BJvg&ab_channel=NetworkChuck
 
-## 25 VS Code Productivity Tips and Speed Hacks
-* https://www.youtube.com/watch?v=ifTF3ags0XI&ab_channel=Fireship
-
-## VScode desde el broswer
+3. you can also use VS desde el web broswer
+#### VScode desde el broswer
 https://vscode.dev/ 
+
+
+4. Here are a list of some uf the basic syntax for markdown files(.md) in Vscode:
 
 https://www.markdownguide.org/basic-syntax/
 

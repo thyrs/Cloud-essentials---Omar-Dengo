@@ -22,15 +22,6 @@
     - Network access control lists (ACLs)
     - Security groups
 
-* GCP Networking Services
-    - Virtual Private Cloud (VPC)
-    - Firewall rules
-    - Routes
-    - Load balancing
-    - Cloud DNS
-    - Advanced connectivity
-
-
 ## Database Services
 
 AWS databases are built for business-critical, enterprise workloads, offering high availability, reliability, and security. These databases support multi-region, multi-master replication, and provide full oversight of your data with multiple levels of security, including network isolation, and end-to-end encryption.
