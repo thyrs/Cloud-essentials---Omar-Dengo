@@ -1,7 +1,7 @@
 
-# LAB_RDS []
+# LAB_Amazon_relational_database_RDS [x]
 
-We will deploy a wordpress website hosting its relational database in AWS RDS
+* We will deploy a wordpress website hosting its relational database in AWS RDS
 
 ### Step 1 - create Security Groups
 * Enable RDS and EC2 to communicate.
