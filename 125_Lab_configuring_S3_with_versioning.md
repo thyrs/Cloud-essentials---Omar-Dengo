@@ -1,7 +1,7 @@
 # Configuring S3 with versioning [x]
 
 ### Step 1
-* look for "S3" in the menu or search bar > Create Bucket > Name choose a unique name > Next > Remove all marks so the Objects can be public > on "Object Ownership": ACLs enabled > Create Bucket.
+* look for "S3" in the menu or search bar > Create Bucket > Name choose a unique name >   on "Object Ownership": ACLs enabled > on "Block Public Access settings for this bucket": Remove all marks so the Objects can be public > Create Bucket.
 
 ### Step 2
 - Select the bucket and click "Permissions" on Edit "Access control list (ACL)"
@@ -10,6 +10,7 @@
 
 ### Step 3
 - Click on the Bucket > Properties > Versioning and Enable Versioning 
+- Enable Versioning
 - (Notice Versioning cannot be disabled, only suspended)
 
 ### Step 4
