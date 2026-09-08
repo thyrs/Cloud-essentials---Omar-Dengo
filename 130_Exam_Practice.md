@@ -16,8 +16,6 @@
 
 ### you can go to anki and take the final theory exam (15%)
 
-
-
 ### Evaluation 
 
 | Cloud Essentials  |        |

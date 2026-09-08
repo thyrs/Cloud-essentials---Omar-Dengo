@@ -1,4 +1,4 @@
-# Configuring S3 with versioning [x]
+# Configuring S3 with versioning [x] approx 30mins
 
 ### Step 1
 * look for "S3" in the menu or search bar > Create Bucket > Name choose a unique name >   on "Object Ownership": ACLs enabled > on "Block Public Access settings for this bucket": Remove all marks so the Objects can be public > Create Bucket.
@@ -15,12 +15,12 @@
 
 ### Step 4
 - Create a .txt file with contents "Hola Estudiantes, This is Version 1" and upload it to the new bucket
-- Select the file > Permissions > Access control list (ACL) > edit > allow Everyone (public access) read permissions
-- open a private window in your web browser(keep it opened)
+- Select the file > Permissions > Access control list (ACL) > edit > allow "Everyone (public access)" read permissions for object.
+- Copy the URL of the file and open it in private window in your web browser(keep it opened)
 
 ### Step 5
 - Lets edit the content of the file and change to "Version 2, Upgrade file with better features!"
-- Lets re-upload the same file > Try to open the file, (Notice is not public now), lets make it public.
+- Lets re-upload the same file (dont change the file's name) > Try to open the file, (Notice is not public now), lets make it public.
 
 ### Step 6
 - Open the File to see its content now (Notice only the Newest version is available)

@@ -1,5 +1,5 @@
 
-# LAB_Amazon_relational_database_RDS [x]
+# LAB_Amazon_relational_database_RDS [x] approx 35mins
 
 * We will deploy a wordpress website hosting its relational database in AWS RDS
 
@@ -14,7 +14,7 @@
 ### Step 2 - Create database
 
 1. How to provision an RDS instance
-    - Go to RDS under databases > Create database > full configuration > change the following settings:
+    - Go to RDS under "Databases" > Create database > full configuration > change the following settings:
     - Engine MySQL > Templates "Sandbox" or free tier > Version 5.7.44 (you need to check: Enable RDS Extended Support box)
 2. Settings
     - DB instance identifier: techcad
@@ -29,7 +29,7 @@
 
 ### Step 3 Provision a EC2 instance
 
-- Choose AMI > Amazon Linux AMI(never use the lastest version) 
+- Choose AMI > Amazon Linux AMI (never use the lastest version) 
 - Instance type T2 Micro 
 
 * Configure Instance Details.
@@ -37,7 +37,7 @@
 * Configure Security Group > Select existing  
 * Add storage > File systems: none 
 
-* Add the following boot script without the information in brackets:
+* Add the following boot script:
 ```sh
 #!/bin/bash
 yum update
@@ -81,7 +81,7 @@ Go back to the WordPress configurator in the browser > Run the installation
 
 * Site Title: Hola techcad
 * Username: techcad
-* Password: techcad 
+* Password: techcad!23 
 * Enter your email address
 * Install WordPress
 
@@ -89,7 +89,7 @@ Go back to the WordPress configurator in the browser > Run the installation
 
 ---
 
-### Optional Labs
+### Optional features:
 
 
 
@@ -121,3 +121,16 @@ Actions > Reboot, enable Reboot with Failover > Cancel
     * Select > Actions Delete, type delete me
 
 > From https://aws.amazon.com/rds/ 
+
+
+<!-- ---
+
+Below you will see a summary of the steps required to create an AWS Aurora DB
+
+* Select our RDS instance > Actions > Create read replica 
+    - DB instance identifier "architect"-aurora > everything else defaults > Create Aurora Read Replica
+* Once done, notice our cluster, both the writer node and reader node have a different DNS endpoint and hosted in a different AZ
+* Feel free to delete our RDS instances and EC2 instance.
+
+
+ >  From https://aws.amazon.com/rds/aurora  -->

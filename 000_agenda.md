@@ -26,49 +26,19 @@ Upon completing this course, participants will be equipped to:
 
 
 ## Chronogram
- 
-### Week 1
-Welcome and ANKI access
-Networking Foundation
 
-### Week 2
-Virtualization Foundation   
-                                            
-### Week 3
-Review Virtualization Foundation
-
-### Week 4
-Linux Foundation Part 1
-
-### Week 5
-Linux Foundation Part 2
-
-### Week 6
-What is cloud computing?
-
-### Week 7
-Azure Part 1
-
-### Week 8
-Azure Part 2
-
-### Week 9  - 8 julio
-GCP Part 1
-
-### Week 10  - 15 julio
-GCP Part 2
-
-### Week 11  - 22 julio
-AWS Part 1
-
-### Week 12 - 29 julio
-AWS Part 2
-
-### Week 13 - 5 Ago
-Practice and active exam in ANKI
-
-### Week 14 - 12 Ago
-Final Practice lab exam
-
-### Week 15 - 19 Ago
-Final LAB exam
+### Week 01 - [Esteban Rojas] Welcome and ANKI access - Networking Foundation
+### Week 02 - [Erick Gomez] Virtualization Foundation   
+### Week 03 - [Armando Gutierrez] Review Virtualization Foundation
+### Week 04 - [Armando Gutierrez] Linux Foundation Part 1
+### Week 05 - [Esteban Rojas] Linux Foundation Part 2
+### Week 06 - [Erick Gomez] What is cloud computing?
+### Week 07 - [Erick Gomez] Azure Part 1
+### Week 08 - [Erick Gomez] Azure Part 2
+### Week 09 - [Armando Gutierrez] GCP Part 1
+### Week 10 - [Armando Gutierrez] GCP Part 2
+### Week 11 - [Armando Gutierrez] AWS Part 1
+### Week 12 - [Esteban Rojas] AWS Part 2
+### Week 13 - [Esteban Rojas] Practice and active exam in ANKI
+### Week 14 - [Erick Gomez] Final Practice lab exam
+### Week 15 - [Esteban Rojas] Final LAB exam
