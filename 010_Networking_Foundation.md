@@ -158,7 +158,7 @@ A subnet is a network that falls within a Class A, B, or C network. Subnets are 
 
 ### Video
 Intro to IPv4 Subnetting
-[click to watch the video](./images/https://www.youtube.com/watch?v%3DUCoVs1Ri1IA)
+[click to watch the video](www.youtube.com/watch?v%3DUCoVs1Ri1IA)
 
 
 The illustration below shows an example of a network before and after subnetting has been applied. In the unsubnetted network, the network has been assigned the Class B address 144.28.0.0. All the devices on this network must share the same broadcast domain.
@@ -170,4 +170,3 @@ For example, the outside world considers the device at 144.28.16.22 to belong to
 
 
 # quiz
-check file: [tex019 quiz 6 questionst](./images/<019 quiz 6 questions.md>)

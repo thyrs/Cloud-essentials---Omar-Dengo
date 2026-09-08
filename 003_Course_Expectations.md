@@ -6,7 +6,7 @@
 
 ## 1 Time required 
    * Camara Encendia
-   * 4 hours for per week: Miercoles
+   * 4 hours for per week: Martes 5PM
    * LUGAR TRANQUILO SIN INTERRUPTIONS
    * Cuaderno Y lapiz para apuntar palabras clave y conceptos importantes
 
@@ -29,10 +29,11 @@
 
 *Min to pass: 70%
 
-• Con 3 ausencias injustificadas, podrian perder el curso.
-• Con 45 minutos de ausencia en la sesión de clase se considera ausente en esa
+* Con 3 ausencias injustificadas, podrian perder el curso.
+* Con 45 minutos de ausencia en la sesión de clase se considera ausente en esa
 sesión.
-<!--! * Si tiene alguna situacion personal por favor comunicarlo cuanto antes para modificar la agenda en caso de que sea necesiario -->
+* ***Si tiene alguna situacion personal por favor comunicarlo cuanto antes para modificar la agenda en caso de que sea necesiario***
+
 
 ## 5 Presentarse
 
