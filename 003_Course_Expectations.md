@@ -34,6 +34,9 @@
 sesión.
 * ***Si tiene alguna situacion personal por favor comunicarlo cuanto antes para modificar la agenda en caso de que sea necesiario***
 
+* Certification: CCNA, CCST, AWS, Azure, linux, 
+
+
 
 ## 5 Presentarse
 

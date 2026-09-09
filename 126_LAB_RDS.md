@@ -85,7 +85,7 @@ Go back to the WordPress configurator in the browser > Run the installation
 * Enter your email address
 * Install WordPress
 
-> **Send SS of the successfull massage at the end**
+> Scroll to the **very bottom** of the page, then send a screenshot (SS) of the final “Success” message. You might see many error messages along the way—ignore them.
 
 ---
 

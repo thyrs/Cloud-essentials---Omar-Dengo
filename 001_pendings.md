@@ -1,5 +1,7 @@
 # pending:
 
+<!-- https://github.com/thyrs/Cloud-essentials---Omar-Dengo/blob/main/001_pendings.md -->
+
 1. [ ] create acct on webex(to see the recordings and send Labs results): https://web.webex.com/sign-in    
     - look for my user "thysteban@gmail.com", send the following:
 1. [ ] Get anki access(to see the content): enroll with code: vrbCYSK (https://learn.mytechacad.com/blocks/enrolcode/enrol.php?code=vrbCYSK) (send Screenshot showing the welcome page)
