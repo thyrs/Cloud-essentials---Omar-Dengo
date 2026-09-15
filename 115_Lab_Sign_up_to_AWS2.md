@@ -24,4 +24,4 @@ Requisites:
 * create a Budget name: yournames_budget
 * Enter your budgeted amount $10
 * add an email for notifications
-* click on "create budget", send an SS of the created budget
+* click on "create budget", send an **SS of the created budget**
