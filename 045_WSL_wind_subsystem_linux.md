@@ -3,6 +3,8 @@
 * You can use WSL to run a Linux distribution on your Windows machine without the need for a virtual machine or dual-boot setup. This allows you to use Linux command-line tools and applications directly on your Windows system.
 - Documentation: https://learn.microsoft.com/en-us/windows/wsl/install
 
+**some windows versions dont support WSL**
+
 1. Look on the windows menu for "PowerShell" click on the option "open with admin rights" (regular PowerShell wont work for this)
 
 2. In there you cant try the following commands:
@@ -23,7 +25,18 @@ wsl -d ubuntu
 # To launch a specific [d]istribution
 ```
 
-- Send an SS after getting into the container and show the output of the command:
+- **Send an SS** after getting into the container and show the output of the command:
+
 ```sh
-hostnamectl
+hostnamectl 
 ```
+
+Instaltion issues:
+* https://learn.microsoft.com/en-us/answers/questions/1187339/resolving-error-0x80370114-the-operation-could-not
+* WSL 2 requires two Windows Features to be enabled:
+- "Virtual Machine Platform" (a subset of Hyper-V)
+- "Windows Subsystem for Linux"
+* turn windows features on or off and enable "Virtual 
+Machine Platform"
+
+

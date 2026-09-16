@@ -11,9 +11,12 @@
    * Cuaderno Y lapiz para apuntar palabras clave y conceptos importantes
 
 ## 2 Materials
-   * access to cloud providers: Azure, AWS (credit card)
-   * Install VScode (recommended)
-   * anki: enroll with code: EMV4WHg (https://learn.mytechacad.com/)
+* access to cloud providers: Azure, AWS (credit card)
+* github: https://github.com/thyrs/Cloud-essentials---Omar-Dengo/blob/main/README.md
+   - install this extentions:
+      <!-- * Cisco IOS Syntax -->
+* Install VScode desktop (recommended)
+* anki: enroll with code: EMV4WHg (https://learn.mytechacad.com/)
 
 
 ## 4 Evaluacion
@@ -24,10 +27,9 @@
 | Final LAB Exam    | 60%   |
 | TOTAL             | 100%* |
 
-
-7.00**** break
-
 *Min to pass: 70%
+
+**BREAK: 7.00PM**
 
 * Con 3 ausencias injustificadas, podrian perder el curso.
 * Con 45 minutos de ausencia en la sesión de clase se considera ausente en esa

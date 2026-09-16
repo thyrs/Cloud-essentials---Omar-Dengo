@@ -73,11 +73,11 @@ It is sometimes called the Aggregation Layer
 
 
 The main **benefits of Three-Layer hierarchical** model is that it helps to design, deploy and maintain a scalable, trustworthy, cost effective hierarchical internetwork.
-• Better Performance: Allows in creating high performance networks
-• Better Redundancy: Multiple links across multiple devices provides better redundancy. 
-• Better Scalability: Allows us to efficiently accomodate future growth.
-• Better Filter/Policy creation and application: Allows better filter/policy creation application.
-• Better management & troubleshooting: CAllows better network management and isolate causes of network trouble.
+- Better Performance: Allows in creating high performance networks
+- Better Redundancy: Multiple links across multiple devices provides better redundancy. 
+- Better Scalability: Allows us to efficiently accomodate future growth.
+- Better Filter/Policy creation and application: Allows better filter/policy creation application.
+- Better management & troubleshooting: CAllows better network management and isolate causes of network trouble.
 
 > *Next Topic, Virtualization and SDCC*
 
