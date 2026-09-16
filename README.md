@@ -2,10 +2,10 @@
 Cloud essentials - Omar Dengo
 
 
-si no tengo cuenta de Github:
+### Si no tengo cuenta de Github:
 
 https://github.com/thyrs/Cloud-essentials---Omar-Dengo
 
-si ya tengo cuenta de Github:
+### Si ya tengo cuenta de Github (Recommened):
 
 https://github.dev/thyrs/Cloud-essentials---Omar-Dengo

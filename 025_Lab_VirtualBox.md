@@ -23,9 +23,9 @@ https://www.youtube.com/watch?v%3DhYaCCpvjsEY
 1. other Linux  32bit
 1. specify virtual hardware:
 
-256MB > RAM
-1 CPU 
-DISK > 8GB
+* RAM > 256MB 
+* CPU > 1 
+* DISK > 8GB
 
 1. click finish
 
@@ -39,5 +39,6 @@ DISK > 8GB
 uname -a
 ```
 
-* right control > mouse 
+### notes:
+* With "right control" > skip mouse capture
 * close with "power off"
