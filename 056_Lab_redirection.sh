@@ -6,3 +6,4 @@
 # 4. List the contents of the root directory and append the output to a file called `output.txt`:
 # 5. Run a command that produces both output and an error, redirecting both to a single file called `combined.txt`:(example: ls ~ /invalid/dir/path)
 # 6. View the contents of each file to verify the results: "cat error.txt combined.txt output.txt" #!SS
+
