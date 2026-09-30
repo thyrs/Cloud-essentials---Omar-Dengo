@@ -40,12 +40,25 @@ exit # go back to the previous session
 
 
 #? "ls -l" command:
+
 ls -l # shows detailed information about files and directories, including permissions #! CERT
 
 | file | user | group | other | links | onwer | group | size | modification | name      |
 | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- | ------------ | --------- |
 | -    | rwx  | rwx   | rwx   | 1     | rober | HRdep | 156  | dec 3 10:57  | my.txt    |
 |      |      |       |       |       |       |       |      |              |           |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
