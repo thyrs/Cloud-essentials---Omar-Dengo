@@ -8,11 +8,11 @@
 
 #? apt-get command:
 
-apt-get # full name #! CERT
+apt-get # full name 
 apt # "Advance Package Tool" ubunto package manager, to install packages from repositories
 
 sudo apt update # Update the list of available packages and versions 
-# (it's recommended to run this before other `apt` commands) #! casacara de banano
+# (it's recommended to run this before other `apt` commands) 
 sudo apt install cmatrix # install the "cmatrix" utility
 sudo apt remove cmatrix # Remove a package (using `purge` instead also removes its configuration files)
 sudo apt upgrade -y # Upgrade all installed packages to their __newest available versions__. Say [y]es to confimation
@@ -36,13 +36,13 @@ systemctl stop apache2 # stop the service
 
 #? ps command:
 
-ps -aux # shows processes: [a]ll, [u]ser based, without controlling ttys [x] #!CERT
-ps -aux --forest # shows "process tree" also know as process hierarchy, #!Interview
+ps -aux # shows processes: [a]ll, [u]ser based, without controlling ttys [x] 
+ps -aux --forest # shows "process tree" also know as process hierarchy, 
 
 
 #? top command:
 
-top # shows proccess, starts top(enters in a presetantion mode) #!CERT
+top # shows proccess, starts top(enters in a presetantion mode) 
     q # [q]uit
     <esc> # "go back"
     k # [k]ills proccess
@@ -68,14 +68,14 @@ cat file2 file3 fil4 # joins files
 
 #? head command:
 
-head # shows the first lines of a text file (10 default)  #! interview
+head # shows the first lines of a text file (10 default)  
 head -n3 /path/to/file # head: shows the first 3 [n]umber of lines of a text file (10 default)
 cat /path/to/file | head -n3 # head: shows the first 3 [n]umber of lines of a text file (10 default)
 
 
 #? tail command:
 
-tail # shows the last lines of a text file, (10 by default)  #! interview
+tail # shows the last lines of a text file, (10 by default)  
 tail /var/log/auth.log # shows the last 10 lines on the text file(system logs)
 tail /etc/hosts -5 # shows the last 5 lines
 cat /etc/hosts | tail -5 # shows the last 5 lines
@@ -83,14 +83,14 @@ cat /etc/hosts | tail -5 # shows the last 5 lines
 
 #? less command:
 
-less # shows the text in a "presentation" mode, #! use the same for man pages
+less # shows the text in a "presentation" mode, 
 # Usage: less [filename]...
 # SEARCHING:
     /pattern # Search forward for (N-th) matching line.
     ?pattern # Search backward for (N-th) matching line.
     n # search [n]ext (for N-th occurrence).
     N # search [N]ext in reverse direction.
-    q # [q]uit presentation mode #! cert
+    q # [q]uit presentation mode 
     h # [h]elp
 less /path/to/file #shows file.txt as in "presentation" mode
 sudo cat /var/log/dmesg | less # open "dmesg" and redirect output to less
@@ -103,7 +103,7 @@ STDIN= Standard input = 0 # information I give to "BASH"
 STDOU= Standard output = 1 # information "BASH" gives me
 STDERR= Standard error = 2 # Error message "BASH" gives
 
->  # used for Output Redirection. #!cert and interview
+>  # used for Output Redirection. 
 >> # used for Output Redirection to append.
 <  # Input redirection (rarely used)
 |  # Pipe is a Redirection to send the output of one command/program/process to another command/program/process for further processing.
@@ -113,7 +113,7 @@ STDERR= Standard error = 2 # Error message "BASH" gives
 
 ls /path/to/directory > log.txt # sends the "Standard output(1)" to log.txt, "1" is implicit
 ls /path/to/directory 1> log.txt # sends the "Standard output" to log.txt, "1" is implicit
-ls /path/to/directory 2> log.txt # sends the errors to log.txt #! cert
+ls /path/to/directory 2> log.txt # sends the errors to log.txt 
 ls /path/to/directory &> log.txt # sends "Standard output(1)" and "Standard error(2)""
 ls dir1 nonexisting &> log.txt # sends "Standard output(1)" and "Standard error(2)""
 
@@ -145,7 +145,7 @@ vi mytextfile.txt # open "mytextfile.txt" with vi.
 
 i       # INSERT MODE: enter "edit mode"    
 gg      # go to first line in file
-G       # go to end of file #! interview
+G       # go to end of file 
 dd      # deletes the line
 u       # undo
 U       # redo
@@ -173,13 +173,13 @@ ZZ      # Exits the editor, saving the changes
 #? Regular Expresions:
 # navigate to /etc/ and try these comands:
 
-ls | grep '^a' # "^" = inicio de linea: muestra lo que empieze con "a" al principio de la linea #!interview
-ls | grep 's$' # "$" = final de linea, muestra lo que tenga "s" al final de la linea #!interview
+ls | grep '^a' # "^" = inicio de linea: muestra lo que empieze con "a" al principio de la linea 
+ls | grep 's$' # "$" = final de linea, muestra lo que tenga "s" al final de la linea 
 ls | grep 'X..' # "." = un caracter: muestra todo lo que tenga "X" seguido de 2 caracteres
 ls | grep '\....' # "\" convierte siguiete caracter en un simbolo literal
 ls | grep [0-9] # "[]" = rango: muestra lo que tenga un numero del 0-9
-ls | grep ^[a-e,z][0-9] # "^" = inicio de linea: muestra file que empieze con letra y seguido un numero #!interview
+ls | grep ^[a-e,z][0-9] # "^" = inicio de linea: muestra file que empieze con letra y seguido un numero 
 ls | grep [^0-9][a-e,z] # "^" = simbolo de negacion: (cuando esta dentro del rango),  muestra file que NO empieze con numero y segundo caracter "a-e" o "z", 
 ls | grep 's.*' # "*" = 0 o mas caracteres, muestra todo lo que tenga algo despues de la "s" 
 ls | grep 'g.*p' # "*" To match zero or more any characters, use ".*"
-grep -i "pattern" /path/to/file # look for "pattern" in file case [i]nsensitive #!CERT
+grep -i "pattern" /path/to/file # look for "pattern" in file case [i]nsensitive 

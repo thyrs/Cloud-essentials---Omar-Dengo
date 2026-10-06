@@ -51,17 +51,6 @@ ls -l # shows detailed information about files and directories, including permis
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 #? "chmod" command:
 
 chmod # changes permissions on a file #! CERT, interview favorite
