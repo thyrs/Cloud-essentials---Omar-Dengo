@@ -1,4 +1,6 @@
 # Lab: Redirecting Standard Output and Standard Error
+testing
+
 ```sh
 # navigate to your home directory, verfy with pwd
 # 1. Create a directory for this lab(_yourname_dir01):
